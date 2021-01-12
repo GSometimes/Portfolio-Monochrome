@@ -7,4 +7,100 @@
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   scroll-behavior: smooth;
+  /* background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610351379/Portfolio1/Typography_Portfolio_By_Sometimes_1_mbymvs.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.homeHeader {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+  letter-spacing: 10px;
+  border: 5px solid white;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: xxx-large;
+}
+
+.homeHeader:hover {
+  color: #454955;
+  /* filter: brightness(200%); */
+  box-shadow: 0 0 15px rgba(0,0,0,.5); 
+}
+
+.landingContainer {
+  background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610343017/Portfolio1/Typography_Portfolio_By_Sometimes_1_wjzs8m.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.mobileBanner {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px){
+  .landingContainer {
+    background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610351379/Portfolio1/Typography_Portfolio_By_Sometimes_1_mbymvs.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .homeHeader {
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 10px;
+    border: 5px solid white;
+    padding: 10px;
+    text-align: center;
+    mix-blend-mode: difference;
+    font-size: x-large;
+    margin: 0 auto;
+  }
+
+  .mobileBanner {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border: 5px solid white;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 10px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: difference;
+    width: 90vw;
+    height: 90vw;
+    font-size: 25px;
+    letter-spacing: 20px;
+  }
+
 }

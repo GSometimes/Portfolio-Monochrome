@@ -5,8 +5,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  scroll-behavior: smooth;
+  /* text-align: center; */
+  /* scroll-behavior: smooth; */
   /* background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610351379/Portfolio1/Typography_Portfolio_By_Sometimes_1_mbymvs.png");
   background-attachment: fixed;
   background-position: center;
@@ -49,6 +49,35 @@
   display: none;
 }
 
+.aboutContainer {
+  background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610351379/Portfolio1/Typography_Portfolio_By_Sometimes_1_mbymvs.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  background: white;
+  height: 50px;
+  width: 100vw;
+  mix-blend-mode: difference;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  color: white; 
+}
+
+a {
+  text-decoration: none;
+  color:black;
+  font-weight: 700;
+  padding: 5vw;
+}
 
 
 
@@ -59,6 +88,7 @@
 
 
 @media only screen and (max-width: 500px){
+
   .landingContainer {
     background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610351379/Portfolio1/Typography_Portfolio_By_Sometimes_1_mbymvs.png");
     background-attachment: fixed;
@@ -70,24 +100,26 @@
   }
 
   .homeHeader {
-    color: white;
+    color:black;
     position: fixed;
     bottom: 0;
     left: 50%;
     transform: translate(-50%, -50%);
-    letter-spacing: 10px;
+    letter-spacing: 15px;
     border: 5px solid white;
     padding: 10px;
     text-align: center;
     mix-blend-mode: difference;
     font-size: x-large;
     margin: 0 auto;
+    background: white;
+    text-align: center;
   }
 
   .mobileBanner {
     display: flex;
     flex-direction: column;
-    color: white;
+    color: black;
     border: 5px solid white;
     justify-content: center;
     align-items: center;
@@ -97,10 +129,44 @@
     left: 50%;
     transform: translate(-50%, -50%);
     mix-blend-mode: difference;
-    width: 90vw;
-    height: 90vw;
+    width: 80vw;
+    height: 80vw;
     font-size: 25px;
     letter-spacing: 20px;
+    background: white;
   }
+
+  .aboutContainer {
+    background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610351379/Portfolio1/Typography_Portfolio_By_Sometimes_1_mbymvs.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .nav {
+    position: fixed;
+    top: 100%;
+    transform: translateY(-100%);
+    background: white;
+    height: 50px;
+    width: 100vw;
+    mix-blend-mode: difference;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+    color: white; 
+  }
+
+  a {
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+    padding: 10px;
+  }
+
+
 
 }

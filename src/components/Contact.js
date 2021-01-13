@@ -1,17 +1,16 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import NavBar from './NavBar'
 
 
 const Contact = () => {
     return (
-        <div>
-            <div className="nav">
-                <Link to='/'>Home</Link>
-                <Link to='/about'>About</Link>
-                <Link to='/portfolio'>Portfolio</Link>
-                <Link to='/contact'>Contact</Link>
+        <>
+
+            <NavBar />
+            <div className="contactContainer">
+
             </div>
-        </div>
+        </>
     )
 }
 

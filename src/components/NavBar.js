@@ -5,12 +5,11 @@ import { Link } from 'react-router-dom'
 const NavBar = (props) => {
     return (
         <>
-        <div className="mobileIcon"></div>
-        <div className="nav">
+            <div className="nav">
                 <Link to='/'>Home</Link>
-                <Link to='/'>About</Link>
+                <Link to='/about'>About</Link>
                 <Link to='/portfolio'>Portfolio</Link>
-                <Link to='/'>Contact</Link>
+                <Link to='/contact'>Contact</Link>
             </div>
 
         </>

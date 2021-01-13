@@ -1,20 +1,14 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import NavBar from './NavBar'
 
 
 const Portfolio = () => {
     return (
         <>
+            <NavBar />
             <div className="portfolioContainer">
+            </div>
 
-            </div>
-            <h1>Cheese</h1>
-            <div className="nav">
-                <Link to='/'>Home</Link>
-                <Link to='/about'>About</Link>
-                <Link to='/portfolio'>Portfolio</Link>
-                <Link to='/contact'>Contact</Link>
-            </div>
         </>
     )
 }

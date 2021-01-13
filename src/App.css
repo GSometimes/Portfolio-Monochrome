@@ -26,7 +26,7 @@
   padding: 10px;
   text-align: center;
   margin: 0 auto;
-  font-size: xxx-large;
+  font-size: xx-large;
 }
 
 .homeHeader:hover {
@@ -78,6 +78,30 @@ a {
   font-weight: 700;
   padding: 5vw;
 }
+a:hover{
+    color: #454955;
+    /* filter: brightness(200%); */
+}
+
+.portfolioContainer {
+  background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610351379/Portfolio1/Typography_Portfolio_By_Sometimes_1_mbymvs.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.contactContainer {
+  background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610351379/Portfolio1/Typography_Portfolio_By_Sometimes_1_mbymvs.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
 
 
 
@@ -87,6 +111,23 @@ a {
 
 
 
+
+@media only screen and (max-width: 768px){
+  .landingContainer {
+    background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610343017/Portfolio1/Typography_Portfolio_By_Sometimes_1_wjzs8m.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .homeHeader{
+    font-size: x-large;
+  }
+
+}
 @media only screen and (max-width: 500px){
 
   .landingContainer {

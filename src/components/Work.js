@@ -2,15 +2,15 @@ import React from 'react'
 import NavBar from './NavBar'
 
 
-const Portfolio = () => {
+const Work = () => {
     return (
         <>
             <NavBar />
-            <div className="portfolioContainer">
+            <div className="workContainer">
             </div>
 
         </>
     )
 }
 
-export default Portfolio
+export default Work

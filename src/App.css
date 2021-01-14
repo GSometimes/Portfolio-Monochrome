@@ -83,7 +83,7 @@ a:hover{
     /* filter: brightness(200%); */
 }
 
-.portfolioContainer {
+.workContainer {
   background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610351379/Portfolio1/Typography_Portfolio_By_Sometimes_1_mbymvs.png");
   background-attachment: fixed;
   background-position: center;
@@ -118,7 +118,7 @@ a:hover{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     height: 100vh;
     width: 100vw;
   }

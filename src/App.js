@@ -3,7 +3,7 @@ import { Switch, Route } from "react-router-dom";
 
 import Landing from "./components/Landing"
 import About from "./components/About"
-import Portfolio from "./components/Portfolio"
+import Work from "./components/Work"
 import Contact from "./components/Contact"
 
 
@@ -13,7 +13,7 @@ function App() {
       <Switch>
       <Route exact path="/"><Landing /></Route>
       <Route path="/about"><About /></Route>
-      <Route path="/portfolio"><Portfolio/></Route>
+      <Route path="/work"><Work/></Route>
       <Route path="/contact"><Contact/></Route>
       </Switch>
     </div>

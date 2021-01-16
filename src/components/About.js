@@ -6,6 +6,9 @@ const About = () => {
         <>
             <NavBar />
             <div className="aboutContainer">
+                <div className="aboutMe">
+                    
+                </div>
                 
             </div>
             

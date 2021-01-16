@@ -15,14 +15,15 @@
 }
 
 .homeHeader {
-  color: white;
+  /* color: white; */
+  /* mix-blend-mode: difference; */
+  color: #747573;
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translate(-50%, -50%);
-  mix-blend-mode: difference;
   letter-spacing: 10px;
-  border: 5px solid white;
+  border: 5px solid #747573;
   padding: 5px;
   text-align: center;
   margin: 0 auto;
@@ -30,9 +31,8 @@
 }
 
 .homeHeader:hover {
-  color: #454955;
-  
-
+  color:#0C95F1;
+  border: 5px solid 
 }
 
 .landingContainer {
@@ -103,6 +103,7 @@ transition: 0.5s;
   display: none;
 }
 
+/* About Component */
 .aboutContainer {
   background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610351379/Portfolio1/Typography_Portfolio_By_Sometimes_1_mbymvs.png");
   background-attachment: fixed;
@@ -112,6 +113,21 @@ transition: 0.5s;
   height: 100vh;
   width: 100vw;
 }
+
+.aboutMe{
+  border: 2px solid red;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 90vw;
+}
+
+/* End of About Component */
 
 .nav {
   position: sticky;
@@ -251,14 +267,15 @@ a:hover{
     position: fixed;
     top: 100%;
     transform: translateY(-100%);
-    background: white;
+    background: black;
     height: 50px;
     width: 100vw;
-    mix-blend-mode: difference;
+    /* mix-blend-mode: difference; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;   
     color: white; 
+    border-top: 2px solid white;
   }
 
   a {

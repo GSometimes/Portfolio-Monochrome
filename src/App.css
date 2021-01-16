@@ -1,18 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
-  /* overflow: hidden; */
-  /* text-align: center; */
-  /* scroll-behavior: smooth; */
-  /* background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610351379/Portfolio1/Typography_Portfolio_By_Sometimes_1_mbymvs.png");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
+  scroll-behavior: smooth;
+  /* border: 2px solid red; */
 }
 
 ::-webkit-scrollbar {
@@ -28,7 +23,7 @@
   mix-blend-mode: difference;
   letter-spacing: 10px;
   border: 5px solid white;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
   margin: 0 auto;
   font-size: xx-large;
@@ -36,39 +31,72 @@
 
 .homeHeader:hover {
   color: #454955;
+  
 
 }
 
 .landingContainer {
   background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610767149/Portfolio1/Typography_half_screen_td1lqu.png");
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   width: 100vw;
-  z-index: -100;
+  /* z-index: -100; */
 }
 
 .myName{
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  align-items: center;
+  justify-content: space-around;
   position: fixed;
   top: 50%;
   left: 25%;
   transform: translate(-50%, -50%);
-  border: 2px solid red;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  height: 50vh;
+  text-shadow: black 0.1em 0.1em;
+
+  
 }
 
-#myPic {
-  position: fixed;
-  height: 250px;
-  width: 250px;
-  border-radius: 50%;
-  /* display: none; */
+#hello{
+  margin: 0 auto;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#name{
+  margin: 0 auto;
+  font-size: 60px;
+  color: black;
+  letter-spacing: 15px;
+  font-family: 'Josefin Slab', serif;
+  font-weight: bold;
+}
+
+#designer{
+  margin: 0 auto;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#myPic{
+border-radius: 50%;
+height: 300px;
+width: 300px;
+border: 4px solid black;
+filter: grayscale(1);
+transition: 0.5s;
+}
+
+#myPic:hover {
+  filter: grayscale(0);
 }
 
 .mobileBanner {
@@ -96,14 +124,13 @@
   justify-content: center;
   align-items: center;  
   border-bottom: 2px solid white; 
-
 }
 
-a {
+.nav a {
   text-decoration: none;
   color: white;
   font-weight: 700;
-  padding: 5vw;
+  padding: 3vw;
 }
 a:hover{
   color:#0C95F1;
@@ -154,6 +181,10 @@ a:hover{
 
   .homeHeader{
     font-size: x-large;
+  }
+
+  .myName {
+    display: none;
   }
 
 }
@@ -235,6 +266,10 @@ a:hover{
     color:black;
     font-weight: 700;
     padding: 10px;
+  }
+
+  .myName {
+    display: none;
   }
 
 

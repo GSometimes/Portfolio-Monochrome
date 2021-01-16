@@ -7,6 +7,7 @@ const Work = () => {
         <>
             <NavBar />
             <div className="workContainer">
+                
             </div>
 
         </>

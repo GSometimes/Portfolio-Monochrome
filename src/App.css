@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
+  /* overflow: hidden; */
   /* text-align: center; */
   /* scroll-behavior: smooth; */
   /* background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610351379/Portfolio1/Typography_Portfolio_By_Sometimes_1_mbymvs.png");
@@ -12,6 +13,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; */
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .homeHeader {
@@ -31,18 +36,39 @@
 
 .homeHeader:hover {
   color: #454955;
-  /* filter: brightness(200%); */
-  box-shadow: 0 0 15px rgba(0,0,0,.5); 
+
 }
 
 .landingContainer {
-  background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610343017/Portfolio1/Typography_Portfolio_By_Sometimes_1_wjzs8m.png");
-  background-attachment: fixed;
+  background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610767149/Portfolio1/Typography_half_screen_td1lqu.png");
+  /* background-attachment: fixed; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   width: 100vw;
+  z-index: -100;
+}
+
+.myName{
+  position: fixed;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 50vh;
+}
+
+#myPic {
+  position: fixed;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  /* display: none; */
 }
 
 .mobileBanner {
@@ -60,26 +86,28 @@
 }
 
 .nav {
-  position: fixed;
+  position: sticky;
   top: 0;
-  background: white;
+  background: black;
   height: 50px;
   width: 100vw;
-  mix-blend-mode: difference;
+  /* mix-blend-mode: difference; */
   display: flex;
   justify-content: center;
   align-items: center;  
-  color: white; 
+  border-bottom: 2px solid white; 
+
 }
 
 a {
   text-decoration: none;
-  color:black;
+  color: white;
   font-weight: 700;
   padding: 5vw;
 }
 a:hover{
-    color: #454955;
+  color:#0C95F1;
+    /* color: #454955; */
     /* filter: brightness(200%); */
 }
 
@@ -112,9 +140,10 @@ a:hover{
 
 
 
+
 @media only screen and (max-width: 768px){
   .landingContainer {
-    background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610343017/Portfolio1/Typography_Portfolio_By_Sometimes_1_wjzs8m.png");
+    background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610768189/Portfolio1/Typography_Portfolio_By_Sometimes_tablet_j9ymbf.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

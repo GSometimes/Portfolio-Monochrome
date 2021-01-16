@@ -6,13 +6,11 @@ const About = () => {
         <>
             <NavBar />
             <div className="aboutContainer">
-                <div className="aboutMe">
-                    
-                </div>
+                
             </div>
             
         </>
     )
 }
 
-export default About
+export default About;

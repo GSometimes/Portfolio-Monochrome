@@ -203,7 +203,8 @@ a:hover{
 
 @media only screen and (max-width: 768px){
   .landingContainer {
-    background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610768189/Portfolio1/Typography_Portfolio_By_Sometimes_tablet_j9ymbf.png");
+    /* background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610768189/Portfolio1/Typography_Portfolio_By_Sometimes_tablet_j9ymbf.png"); */
+    background-image: none;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -216,9 +217,55 @@ a:hover{
     font-size: x-large;
   }
 
-  .myName {
-    display: none;
+
+  .myName{
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* text-shadow: black 0.1em 0.1em; */
+    /* border: 2px solid red; */
+    text-align: left;
+    
   }
+
+  #hello{
+    margin: 0 auto;
+    color: black;
+    /* text-align: center; */
+    font-size: 24px;
+    font-weight: bold;
+    /* border: 2px solid red; */
+    width: 100%;
+    font-family: 'Josefin Slab', serif;
+  
+  }
+
+  #myPic{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    border: 4px solid black;
+    filter: grayscale(1);
+    transition: 0.5s;
+    margin: 30px;
+    }
+    
+    #myPic:hover {
+      filter: grayscale(0);
+    }
+    
+    #myElement {
+      font-size: 24px;
+      font-weight: bold;
+      font-family: 'Josefin Slab', serif;
+    }
 
 }
 @media only screen and (max-width: 500px){

@@ -2,7 +2,7 @@ import './App.css';
 import { Switch, Route } from "react-router-dom";
 import React, { useState } from 'react'
 import { CursorProvider } from 'react-cursor-custom'
-import styled from 'styled-components'
+// import styled from 'styled-components'
 
 
 import Landing from "./components/Landing"
@@ -12,10 +12,10 @@ import Contact from "./components/Contact"
 
 function App() {
 
-const [ color, setColor ] = useState('#0C95F1')
-const [ transition, setTransition ] = useState(100)
-const [ ring, setRing ] = useState(false)
-const [ ringSize, setRingSize ] = useState(36)
+const [ color ] = useState('#0C95F1')
+const [ transition ] = useState(100)
+const [ ring ] = useState(false)
+const [ ringSize ] = useState(36)
 
   return (
     <div className="App">

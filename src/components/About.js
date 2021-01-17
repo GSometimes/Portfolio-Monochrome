@@ -7,7 +7,7 @@ const About = () => {
             <NavBar />
             <div className="aboutContainer">
                 <div className="aboutMe">
-                    
+                    <h1>About</h1>
                 </div>
                 
             </div>

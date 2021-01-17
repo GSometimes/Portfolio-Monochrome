@@ -17,18 +17,19 @@
 #selector {
   cursor: none;
 }
+/* Landing Component */
 
 .homeHeader {
   /* color: white; */
   /* mix-blend-mode: difference; */
   color: #747573;
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  left: 50%;
+  left: 25%;
   transform: translate(-50%, -50%);
   letter-spacing: 10px;
   border: 5px solid #747573;
-  padding: 5px;
+  padding: 10px;
   text-align: center;
   margin: 0 auto;
   font-size: xx-large;
@@ -119,6 +120,7 @@ margin: 30px;
 .mobileBanner {
   display: none;
 }
+/* End of Landing Component */
 
 /* About Component */
 .aboutContainer {
@@ -146,6 +148,8 @@ margin: 30px;
 
 /* End of About Component */
 
+/* Navbar Component */
+
 .nav {
   position: sticky;
   top: 0;
@@ -170,6 +174,8 @@ a:hover{
     /* color: #454955; */
     /* filter: brightness(200%); */
 }
+
+/* End of Navbar Component */
 
 .workContainer {
   background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610351379/Portfolio1/Typography_Portfolio_By_Sometimes_1_mbymvs.png");

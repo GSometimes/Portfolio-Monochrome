@@ -272,17 +272,6 @@ a:hover{
 
 
 
-.contactContainer {
-  background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610351379/Portfolio1/Typography_Portfolio_By_Sometimes_1_mbymvs.png");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
-}
-
-
 /* Work Container */
 
 .workContainer {
@@ -296,12 +285,13 @@ a:hover{
 }
 
 
+
 .container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position: fixed;
   height: calc(100% - 200px);
   width: calc(100% - 200px);
   z-index: 100;
@@ -319,6 +309,8 @@ a:hover{
   /* border-right: 10px solid #111; */
 }
 
+
+
 /* .container .box:last-child {
   border-right: none;
   margin-right: 0;
@@ -326,7 +318,7 @@ a:hover{
 
 .container .box .imgBox {
   position: absolute;
-  top: 0;
+  top: 10;
   left: 0;
   /* top: 50%; */
   /* left: 50%; */
@@ -337,9 +329,66 @@ a:hover{
   filter: grayscale(1);
   display: block;
   margin: 0 auto;
-     
 }
-.container .box .imgBox.active {
+
+.img1, .img2 {
+  border: 4px solid black;     
+
+}
+
+.img3, .img4 {
+  border: 4px solid white;     
+}
+
+
+.description{
+  width: 100%;
+  height: 125px;
+  position: absolute;
+  left: 0;
+  bottom: -100px;
+  color:white;
+  text-align: center;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: all 0.7s ease;
+  padding: 20px;
+}
+
+h2{
+  font-family: 'Josefin Slab', serif;
+}
+
+p {
+  font-family: 'Josefin Slab', serif;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-family: 'Josefin Slab', serif;
+  margin: 5px;
+}
+
+.box:hover .description{
+  display: inline;
+  opacity: 1;
+  bottom: 0;
+  transition: all 0.7s ease;
+  /* transition: opacity 0.5s ease; */
+}
+
+.box:hover .imgBox {
+  opacity: 1;
+  filter: grayscale(0); 
+}
+
+/* .container .box .imgBox.active {
   position: fixed;
   top: 100px;
   left: 100px;
@@ -348,12 +397,14 @@ a:hover{
   z-index: 1000;
   opacity: 1;
   filter: grayscale(0);
+} */
 
-}
-.container .box .imgBox:hover {
+/* .container .box .imgBox:hover {
   opacity: 1;
   filter: grayscale(0);   
-}
+} */
+
+
 
 
 .container .box .imgBox img {
@@ -366,10 +417,22 @@ a:hover{
 }
 
 
-
 /* End of Work Container */
 
+/* Contact Container */
 
+.contactContainer {
+  background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610351379/Portfolio1/Typography_Portfolio_By_Sometimes_1_mbymvs.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+/* End of Contact Container */
 
 
 

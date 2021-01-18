@@ -5,7 +5,6 @@ import NavBar from './NavBar'
 const Contact = () => {
     return (
         <>
-
             <NavBar />
             <div className="contactContainer">
 

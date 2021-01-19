@@ -10,7 +10,7 @@ import { init } from "ityped";
     const myElement = document.querySelector("#myElement");
     init(myElement, {
       showCursor: false,
-      strings: ["React Developer,", "Entrepreneur,", "Designer,"]
+      strings: ["Front End Developer,","React Developer,", "Entrepreneur,", "Designer,"]
     });
   }
 

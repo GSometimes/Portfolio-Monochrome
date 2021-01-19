@@ -132,6 +132,8 @@ margin: 30px;
   background-size: cover;
   height: 100vh;
   width: 100vw;
+  display: flex;
+  align-items: center;
 }
 
 .aboutMe{
@@ -149,11 +151,14 @@ margin: 30px;
 }
 
 .aboutTitle {
-  position: sticky;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 48px;
   text-align: center;
   color: white;
-  letter-spacing: 5px;
+  letter-spacing: 10px;
 }
 
 .imageGrid {
@@ -164,7 +169,7 @@ margin: 30px;
   height: 60vh;
   width: 35vw;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 25%;
   transform: translate(-50%, -50%);
 }
@@ -253,6 +258,7 @@ margin: 30px;
   justify-content: center;
   align-items: center;  
   border-bottom: 2px solid white; 
+  z-index: 100000000;
 
 }
 
@@ -262,6 +268,7 @@ margin: 30px;
   font-weight: 700;
   padding: 3vw;
 }
+
 a:hover{
   color:#0C95F1;
     /* color: #454955; */
@@ -280,22 +287,65 @@ a:hover{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
+  display: block;
+  
 }
 
+.myWorks{
+  /* border: 2px solid red; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 90vw;
+  mix-blend-mode: difference;
+}
 
+.workTitle{
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  text-align: center;
+  color: white;
+  letter-spacing: 10px;
+}
+
+/* .box1 {
+  background: blue;
+  width: 50%;
+  height: 50%;
+  z-index: 100000;
+  position: absolute;
+  top: 100%;
+  border: 2px solid red;
+} */
+
+/* .box1 img{
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  object-fit: cover;
+} */
 
 .container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  position: absolute;
   height: calc(100% - 200px);
   width: calc(100% - 200px);
-  z-index: 100;
-  top: 50%;
+  /* z-index: 100; */
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -309,7 +359,15 @@ a:hover{
   /* border-right: 10px solid #111; */
 }
 
+.container a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Josefin Slab', serif;
+}
 
+.container a:hover {
+  color: #0C95F1;
+}
 
 /* .container .box:last-child {
   border-right: none;
@@ -345,14 +403,13 @@ a:hover{
   width: 100%;
   height: 125px;
   position: absolute;
-  left: 0;
   bottom: -100px;
   color:white;
   text-align: center;
   opacity: 0;
   background: rgba(0, 0, 0, 0.7);
   transition: all 0.7s ease;
-  padding: 20px;
+  padding: 10px;
 }
 
 h2{
@@ -361,6 +418,9 @@ h2{
 
 p {
   font-family: 'Josefin Slab', serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
 }
 
 button {
@@ -370,9 +430,14 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   font-family: 'Josefin Slab', serif;
-  margin: 5px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  color: #0C95F1;
 }
 
 .box:hover .description{
@@ -455,6 +520,10 @@ button {
 
   .homeHeader{
     font-size: x-large;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
 
@@ -511,51 +580,95 @@ button {
 @media only screen and (max-width: 500px){
 
   .landingContainer {
-    background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610351379/Portfolio1/Typography_Portfolio_By_Sometimes_1_mbymvs.png");
+    background-image: none;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100vw;
+    /* z-index: -100; */
   }
-
-  .homeHeader {
-    color:black;
-    position: fixed;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    letter-spacing: 15px;
-    border: 5px solid white;
-    padding: 10px;
-    text-align: center;
-    mix-blend-mode: difference;
-    font-size: x-large;
-    margin: 0 auto;
-    background: white;
-    text-align: center;
-  }
-
-  .mobileBanner {
+  
+  .myName{
     display: flex;
     flex-direction: column;
-    color: black;
-    border: 5px solid white;
-    justify-content: center;
+    height: 75vh;
+    width: 700px;
     align-items: center;
-    position: absolute;
-    padding: 10px;
+    justify-content: center;
+    position: fixed;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    mix-blend-mode: difference;
-    width: 80vw;
-    height: 80vw;
-    font-size: 25px;
-    letter-spacing: 20px;
-    background: white;
+    padding: 10px;
+    /* text-shadow: black 0.1em 0.1em; */
+    /* border: 2px solid red; */
+    /* text-align: left; */ 
   }
+
+
+  .nav {
+    position: fixed;
+    top: 100%;
+    transform: translateY(-100%);
+    background: black;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+    color: white; 
+    border-top: 2px solid white;
+    /* mix-blend-mode: difference; */
+  }
+
+  a {
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+    padding: 10px;
+  }
+
+  #hello{
+    margin: 0 auto;
+    color: black;
+    /* text-align: center; */
+    font-size: 18px;
+    font-weight: bold;
+    /* border: 2px solid red; */
+    width: 50%;
+    font-family: 'Josefin Slab', serif;
+  
+  }
+
+  #myPic{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 4px solid black;
+    filter: grayscale(1);
+    transition: 0.5s;
+    margin: 30px;
+    }
+    
+    #myPic:hover {
+      filter: grayscale(0);
+    }
+    
+    #myElement {
+      font-size: 18px;
+      font-weight: bold;
+      font-family: 'Josefin Slab', serif;
+    }
+
+    .homeHeader {
+      font-size: large;
+    }
+
+    /* Mobile About Container */
+
+    
 
   .aboutContainer {
     background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610351379/Portfolio1/Typography_Portfolio_By_Sometimes_1_mbymvs.png");
@@ -566,33 +679,5 @@ button {
     height: 100vh;
     width: 100vw;
   }
-
-  .nav {
-    position: fixed;
-    top: 100%;
-    transform: translateY(-100%);
-    background: black;
-    height: 50px;
-    width: 100vw;
-    /* mix-blend-mode: difference; */
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;   
-    color: white; 
-    border-top: 2px solid white;
-  }
-
-  a {
-    text-decoration: none;
-    color:black;
-    font-weight: 700;
-    padding: 10px;
-  }
-
-  .myName {
-    display: none;
-  }
-
-
-
+    /* End Mobile About Container */
 }

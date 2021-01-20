@@ -132,17 +132,17 @@ margin: 30px;
   background-size: cover;
   height: 100vh;
   width: 100vw;
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: column; */
   /* border: 2px solid red; */
 }
 
 .aboutParagraph {
   /* border: 2px solid red; */
   position: absolute;
-  top: 55%;
+  top: 50%;
   right: 25%;
   transform: translate(50%, -50%);
   height: 60vh;
@@ -168,7 +168,7 @@ margin: 30px;
 
 
 .aboutParagraph a:hover {
-  color: white;
+  color: #454955;
 }
 
 .aboutParagraph img{
@@ -331,9 +331,8 @@ a:hover{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  height: 100vh;
   width: 100vw;
-  display: block;
   
 }
 
@@ -538,6 +537,47 @@ button:hover {
   background-size: cover;
   height: 100vh;
   width: 100vw;
+  border: 2px solid red;
+}
+
+.contactTitle{
+  position: fixed;
+  top: 110px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  text-align: center;
+  color: white;
+  letter-spacing: 10px;
+  mix-blend-mode: difference;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  width: 700px;
+  justify-content: center;
+  /* align-items: center; */
+  position: fixed;
+  top: 55%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  border: 2px solid red;
+}
+
+.contact-details a {
+  text-decoration: none;
+  color: black;
+  mix-blend-mode: difference;
+}
+
+.contact-details a:hover {
+  color: #0C95F1;
+}
+
+.contact-details h1 {
+  margin: 20px;
 }
 
 
@@ -549,11 +589,20 @@ button:hover {
   justify-content: center;
   align-items: center;
   position: fixed;
-  top: 50%;
+  top: 55%;
   right: 25%;
   transform: translate(50%, -50%);
   color: white;
   border: 2px solid red;
+  mix-blend-mode: difference;
+}
+
+.contact-form h1 {
+  font-family: 'Josefin Slab', serif;
+  font-weight: bold;
+  position: absolute;
+  top: 20%;
+  font-size: 40px;
 }
 
 .contact-form label {

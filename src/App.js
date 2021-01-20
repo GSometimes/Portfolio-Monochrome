@@ -19,6 +19,7 @@ const [ ringSize ] = useState(36)
 
   return (
     <div className="App">
+
       <CursorProvider color={color} noRing={ring} ringSize={ringSize} transitionTime={transition}>
       <Switch>
       <Route exact path="/"><Landing /></Route>
@@ -27,6 +28,7 @@ const [ ringSize ] = useState(36)
       <Route path="/contact"><Contact/></Route>
       </Switch>
       </CursorProvider>
+
     </div>
   );
 }

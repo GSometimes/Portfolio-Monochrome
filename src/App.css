@@ -134,6 +134,48 @@ margin: 30px;
   width: 100vw;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 2px solid red; */
+}
+
+.aboutParagraph {
+  /* border: 2px solid red; */
+  position: absolute;
+  top: 55%;
+  right: 25%;
+  transform: translate(50%, -50%);
+  height: 60vh;
+  width: 35vw;
+  color: white;
+  font-family: 'Josefin Slab', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.aboutParagraph p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.aboutParagraph a {
+  text-decoration: none;
+  color: #0C95F1;
+  font-family: 'Josefin Slab', serif;
+  position: relative;
+}
+
+
+.aboutParagraph a:hover {
+  color: white;
+}
+
+.aboutParagraph img{
+  position: absolute;
+  top: -250px;
+  height: 500px;
+  width: 500px;
 }
 
 .aboutMe{

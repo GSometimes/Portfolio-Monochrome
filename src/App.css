@@ -150,10 +150,10 @@ margin: 30px;
   width: 35vw;
   color: white;
   font-family: 'Josefin Slab', serif;
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; */
 }
 .aboutParagraph p {
   font-size: 20px;
@@ -164,7 +164,7 @@ margin: 30px;
   text-decoration: none;
   color: #0C95F1;
   font-family: 'Josefin Slab', serif;
-  position: relative;
+  /* position: relative; */
 }
 
 
@@ -298,12 +298,12 @@ margin: 30px;
   background: black;
   height: 50px;
   width: 100vw;
-  /* mix-blend-mode: difference; */
   display: flex;
   justify-content: center;
   align-items: center;  
   border-bottom: 2px solid white; 
-  z-index: 100000000;
+  /* mix-blend-mode: difference; */
+  /* z-index: 100000000; */
 
 }
 
@@ -334,7 +334,7 @@ a:hover{
   background-size: cover;
   height: 100vh;
   width: 100vw;
-  
+  position: fixed;
 }
 
 .myWorks{
@@ -342,7 +342,7 @@ a:hover{
   /* display: flex;
   justify-content: center;
   align-items: center; */
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -389,7 +389,7 @@ a:hover{
   height: calc(100% - 200px);
   width: calc(100% - 200px);
   /* z-index: 100; */
-  top: 55%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -704,6 +704,10 @@ button:hover {
   
   }
 
+  .nav {
+    z-index: 10000;
+  }
+
   #myPic{
     border-radius: 50%;
     height: 250px;
@@ -739,6 +743,8 @@ button:hover {
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
+    position: absolute;
+    z-index: -1;
     /* border: 2px solid red; */
   }
 
@@ -829,9 +835,116 @@ button:hover {
     transform: translate(-50%, -50%); */
   }
 
+/* End of About Container */
+
+/* Work Container Tablet */
+
+.workContainer {
+  background-image: none;
+  /* background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+}
+
+.myWorks{
+  /* border: 2px solid red; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 90vw;
+  mix-blend-mode: difference;
+}
+
+.workTitle{
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  letter-spacing: 10px;
+}
 
 
-    /* End of About Container */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  position: absolute;
+  height: calc(100% - 200px);
+  width: calc(100% - 200px);
+  /* z-index: 100; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  grid-gap: 10px;
+
+}
+
+.container .box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* margin-right: 10px; */
+  /* border-right: 10px solid #111; */
+}
+
+.container a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Josefin Slab', serif;
+}
+
+.container a:hover {
+  color: #0C95F1;
+}
+
+/* .container .box:last-child {
+  border-right: none;
+  margin-right: 0;
+} */
+
+.container .box .imgBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  filter: grayscale(1);
+  display: block;
+  margin: 0 auto;
+}
+
+.img1, .img2, .img3, .img4 {
+  border: 4px solid black;   
+}
+
+
+
+/* End of Work Container Tablet */
+
+/* Contact Container Tablet */
+
+
+
+/* End of Contact Container Tablet */
+
+
 }
 @media only screen and (max-width: 500px){
 
@@ -876,6 +989,7 @@ button:hover {
     align-items: center;   
     color: white; 
     border-top: 2px solid white;
+    z-index: 100000;
     /* mix-blend-mode: difference; */
   }
 
@@ -927,13 +1041,206 @@ button:hover {
     
 
   .aboutContainer {
-    background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610351379/Portfolio1/Typography_Portfolio_By_Sometimes_1_mbymvs.png");
+    background-image: none;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /* border: 2px solid red; */
   }
+
+  .aboutParagraph {
+    /* border: 2px solid red; */
+    /* position: absolute;
+    top: 100%;
+    right: 50%;
+    transform: translate(50%, -50%); */
+    all: initial;
+    height: 800px;
+    width: 100vw;
+    font-family: 'Josefin Slab', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0 50px 0;
+    background: black;
+    z-index: -1;
+    padding-bottom: 50px;
+  }
+  .aboutParagraph p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    width: 75%;
+    color: white;
+  }
+
+  .aboutParagraph a {
+    text-decoration: none;
+    color: #0C95F1;
+    font-family: 'Josefin Slab', serif;
+    font-size: 16px;
+    padding: 0;
+  }
+
+
+  .aboutParagraph a:hover {
+    color: #454955;
+  }
+
+
+
+
+  .aboutMe{
+    /* border: 2px solid red; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    all: initial;
+    height: 80vh;
+    width: 90vw;
+    mix-blend-mode: difference;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .aboutTitle {
+    all: initial; 
+    /* position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    font-size: 40px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    letter-spacing: 10px;
+  }
+
+  .imageGrid {
+    all: initial;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr) ;
+    height: 75vh;
+    width: 75vw;
+    padding: 20px;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+  }
+
+  .aboutParagraph img{
+    display: block;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+  }
+
     /* End Mobile About Container */
+
+    /* Mobile Work Container */
+
+    .myWorks{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 80vh;
+      width: 90vw;
+      mix-blend-mode: difference;
+    }
+    
+    .workTitle{
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 48px;
+      text-align: center;
+      color: black;
+      letter-spacing: 10px;
+    }
+    
+    
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      align-items: center;
+      position: absolute;
+      /* height: calc(100% - 200px);
+      width: calc(100% - 200px); */
+      height: calc(100% - 200px);
+      width: 90%;
+      /* z-index: 100; */
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      grid-gap: 10px;
+    }
+    
+    .container .box {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      /* margin-right: 10px; */
+      /* border-right: 10px solid #111; */
+    }
+    
+    .container a {
+      text-decoration: none;
+      color: white;
+      font-family: 'Josefin Slab', serif;
+    }
+    
+    .container a:hover {
+      color: #0C95F1;
+    }
+    
+    /* .container .box:last-child {
+      border-right: none;
+      margin-right: 0;
+    } */
+    
+    .container .box .imgBox {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: 100%;
+      transition: 0.5s;
+      filter: grayscale(1);
+      display: block;
+      margin: 0 auto;
+
+    }
+    
+    .img1, .img2, .img3, .img4 {
+      border: 4px solid black;   
+    }
+
+    /* End of Mobile Work Container */
+
+    /* Mobile Contact Container */
+
+    /* End of Mobile Contact Container */
 }

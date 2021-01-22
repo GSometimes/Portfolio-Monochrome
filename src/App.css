@@ -1192,7 +1192,7 @@ button:hover {
     right: 50%;
     transform: translate(50%, -50%); */
     all: initial;
-    height: 800px;
+    height: 100%;
     width: 100vw;
     font-family: 'Josefin Slab', serif;
     display: flex;
@@ -1202,7 +1202,7 @@ button:hover {
     margin: 20px 0 50px 0;
     background: black;
     z-index: -1;
-    padding: 50px;
+    padding: 75px;
   }
   .aboutParagraph p {
     font-size: 16px;

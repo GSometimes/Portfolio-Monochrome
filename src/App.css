@@ -847,23 +847,27 @@ button:hover {
   justify-content: center;
   align-items: center; */
   position: absolute;
-  top: 50%;
+  top: 100px;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 80vh;
+  height: 100px;
   width: 90vw;
   mix-blend-mode: difference;
+  /* border: 2px solid red; */
 }
 
 .workTitle{
   position: fixed;
-  top: 10px;
+  top: 0;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 40px;
   text-align: center;
   color: black;
   letter-spacing: 10px;
+  /* border: 2px solid red; */
+  height: 50px;
+  width: 100%;
 }
 
 
@@ -880,7 +884,7 @@ button:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  grid-gap: 10px;
+  grid-gap: 20px;
 
 }
 
@@ -903,10 +907,10 @@ button:hover {
   color: #0C95F1;
 }
 
-/* .container .box:last-child {
+.container .box:last-child {
   border-right: none;
   margin-right: 0;
-} */
+}
 
 .container .box .imgBox {
   position: absolute;
@@ -963,10 +967,10 @@ button:hover {
 .contact-details {
   all: initial;
   height: 80%;
-  width: 700px;
+  width: 80%;
   position: relative;
   margin: 0 auto;
-  margin-top: 200px;
+  margin-top: 50px;
   padding: 50px;
   text-align: center;
   /* display: flex;
@@ -997,13 +1001,17 @@ button:hover {
 
 .contact-form {
   all: initial;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 700px;
-  width: 700px;
-  color: black;
+  height: 80%;
+  width: 100vw;
+  color: white;
+  margin: 0 auto;
+  padding-top: 20px;
+  background: black;
   /* position: fixed;
   top: 55%;
   right: 25%;
@@ -1017,7 +1025,7 @@ button:hover {
   font-family: 'Josefin Slab', serif;
   font-weight: bold;
   font-size: 40px;
-  color: black;
+  color: white;
   /* position: absolute;
   top: 20%; */
 }
@@ -1288,14 +1296,20 @@ button:hover {
       width: 100vw;
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 
     .myWorks{
       all:initial;
-      height: 100px;
+      position: relative;
+      top: 20px;
       width: 90vw;
+      height: 48px;
       margin: 0 auto;
-      margin-top: 50px;
+      margin-top: 20px; 
+      /* border: 2px solid red; */
+      padding: 10px;
     }
     
     .workTitle{
@@ -1305,6 +1319,7 @@ button:hover {
       text-align: center;
       color: black;
       letter-spacing: 10px;
+
     }
     
     
@@ -1367,6 +1382,145 @@ button:hover {
     /* End of Mobile Work Container */
 
     /* Mobile Contact Container */
+
+    .contactContainer {
+      background-image: none;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      position: absolute;
+      /* border: 2px solid red; */
+    }
+    
+    .contactTitle{
+      /* position: fixed;
+      top: 100px;
+      left: 50%;
+      transform: translate(-50%, -50%); */
+      position: absolute;
+      top: 35px;
+      font-size: 40px;
+      text-align: center;
+      color: black;
+      letter-spacing: 10px;
+    }
+    
+    .contact-details {
+      all: initial;
+      height: 80%;
+      width: 80%;
+      position: relative;
+      margin: 0 auto;
+      margin-top: 100px;
+      padding: 20px;
+      /* border: 2px solid red; */
+      /* text-align: center; */
+      /* display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; */
+      /* position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); */
+      /* border: 2px solid red; */
+    }
+    
+    .contact-details a {
+      text-decoration: none;
+      color: black;
+      mix-blend-mode: difference;
+    }
+    
+    .contact-details a:hover {
+      color: #0C95F1;
+    }
+    
+    .contact-details h1 {
+      font-size: 20px;
+      margin: 0;
+    }
+    
+    
+    .contact-form {
+      all: initial;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 80%;
+      width: 100vw;
+      color: white;
+      margin: 0 auto;
+      padding-top: 20px;
+      /* padding: 20px; */
+      margin-bottom: 50px;
+      background: black;
+      /* position: fixed;
+      top: 55%;
+      right: 25%;
+      transform: translate(50%, -50%); */
+      /* border: 2px solid red; */
+      /* mix-blend-mode: difference; */
+    }
+    
+    .contact-form h1 {
+      all:initial;
+      font-family: 'Josefin Slab', serif;
+      font-weight: bold;
+      font-size: 32px;
+      color: white;
+      padding: 15px;
+      /* position: absolute;
+      top: 20%; */
+    }
+    
+    .contact-form label {
+      font-size: 18px;
+      font-family: 'Josefin Slab', serif;
+      font-weight: bold;
+      width: 300px;
+      margin-bottom: 5px;
+      text-align: left;
+      /* border: 2px solid red; */
+    }
+    
+    .contact-form input {
+      font-family: 'Josefin Slab', serif;
+      width: 300px;
+      margin-bottom: 10px;
+      color: black;
+      font-size: 18px;
+    }
+    
+    .contact-form #button {
+      width: 150px;
+      color: white;
+      font-size: 18px;
+      font-family: 'Josefin Slab', serif;
+      font-weight: bold;
+      padding: 5px;
+      background-color: #454955;
+    }
+    
+    .contact-form #button:hover {
+      color: #0C95F1;
+    }
+    
+    .contact-form textarea {
+      width: 300px;
+      height: 150px;
+      margin-bottom: 10px;
+      font-family: 'Josefin Slab', serif;
+    }
 
     /* End of Mobile Contact Container */
 }

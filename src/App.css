@@ -697,9 +697,9 @@ button:hover {
   
   }
 
-  .nav {
+  /* .nav {
     z-index: 10000;
-  }
+  } */
 
   #myPic{
     border-radius: 50%;
@@ -737,7 +737,7 @@ button:hover {
     justify-content: space-between;
     flex-direction: column;
     position: absolute;
-    z-index: -1;
+    /* z-index: -1; */
     /* border: 2px solid red; */
   }
 
@@ -748,7 +748,7 @@ button:hover {
     right: 50%;
     transform: translate(50%, -50%); */
     all: initial;
-    height: 75vh;
+    height: 100%;
     width: 100vw;
     font-family: 'Josefin Slab', serif;
     display: flex;
@@ -1198,10 +1198,10 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     margin: 20px 0 50px 0;
     background: black;
-    z-index: -1;
+    /* z-index: -1; */
     padding: 75px;
   }
   .aboutParagraph p {

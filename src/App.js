@@ -9,6 +9,7 @@ import Landing from "./components/Landing"
 import About from "./components/About"
 import Work from "./components/Work"
 import Contact from "./components/Contact"
+// import NavBar from "./components/NavBar"
 
 function App() {
 
@@ -19,8 +20,8 @@ const [ ringSize ] = useState(36)
 
   return (
     <div className="App">
-
       <CursorProvider color={color} noRing={ring} ringSize={ringSize} transitionTime={transition}>
+      {/* <NavBar /> */}
       <Switch>
       <Route exact path="/"><Landing /></Route>
       <Route path="/about"><About /></Route>

@@ -59,18 +59,7 @@ const Work = () => {
                         </div>
                     </div>                   
                 </div>
-                {/* <div class="box1">
-                        <div>
-                            <img src="https://res.cloudinary.com/dvug8hy5k/image/upload/v1607133621/Portfolio1/Screenshot_2020-11-29_222957_hjtdqz.png" alt=""/>
-                        </div>
-                        <div className="textBox">
-                            <div className="description">
-                                <h2>Little Black Book</h2>
-                                <p>React, Contentful</p>
-                                <button>Live Link</button> <button>Github Link</button>
-                            </div>
-                        </div>
-                    </div> */}
+
             </div>
 
         </>

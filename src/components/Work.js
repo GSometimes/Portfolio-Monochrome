@@ -42,7 +42,7 @@ const Work = () => {
                         </div>
                         <div className="textBox">
                             <div className="description">
-                                <h2>CinePrime</h2>
+                                <h2>CinePrime: Movie Planner</h2>
                                 <p>React, Express, MongoDB, JWT Auth</p>
                                 <button><a href="https://cineprime.netlify.app/" target="_blank" rel="noreferrer">Live Link</a></button> <button><a href="https://github.com/GSometimes/cineprime-frontend" target="_blank" rel="noreferrer">Github Link</a></button>                            </div>
                         </div>

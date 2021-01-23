@@ -23,6 +23,17 @@ const Contact = () => {
             <NavBar />
             <div className="contactContainer">
                 <p className="contactTitle">Contact</p>
+                <form className="contact-form" onSubmit={sendEmail}>
+                    <h1>Let's Work Together!</h1>
+                    <input type="hidden" name="contact_number" />
+                    <label>Name</label>
+                    <input type="text" name="name" required/>
+                    <label>Email</label>
+                    <input type="email" name="email" required/>
+                    <label>Message</label>
+                    <textarea name="message" required/>
+                    <input id="button" type="submit" value="Send" />
+                </form>
                 <div className="contact-details">
                     <p>Email</p>
                     <h1><a href="mailto:gsometimes@outlook.com" target="_blank" rel="noopener noreferrer">gsometimes@outlook.com</a></h1>
@@ -35,7 +46,7 @@ const Contact = () => {
                     <p>Resume</p>
                     <h1><a href="/currentResume.pdf" download>My Resume</a></h1>
                 </div>
-                <form className="contact-form" onSubmit={sendEmail}>
+                {/* <form className="contact-form" onSubmit={sendEmail}>
                     <h1>Let's Work Together!</h1>
                     <input type="hidden" name="contact_number" />
                     <label>Name</label>
@@ -45,7 +56,7 @@ const Contact = () => {
                     <label>Message</label>
                     <textarea name="message" required/>
                     <input id="button" type="submit" value="Send" />
-                </form>
+                </form> */}
 
             </div>
         </>

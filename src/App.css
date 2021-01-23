@@ -1191,7 +1191,7 @@ button:hover {
     }
     
     .contactTitle{
-      top: 50px;
+      margin: 0 auto;
       font-size: 40px;
       text-align: center;
       color: black;
@@ -1224,7 +1224,7 @@ button:hover {
     
     .contact-form {
       position: relative;
-      top: 75px;
+      top: 125px;
       width: 100vw;
       height: auto;
       margin: 0 auto;

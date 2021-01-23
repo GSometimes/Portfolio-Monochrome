@@ -146,7 +146,7 @@ margin: 30px;
   width: 300px;
   height: auto;
   margin-top: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .aboutMe{
@@ -831,7 +831,6 @@ button:hover {
 .contact-details a {
   text-decoration: none;
   color: black;
-  mix-blend-mode: difference;
 }
 
 .contact-details a:hover {
@@ -944,8 +943,8 @@ button:hover {
     display: flex;
     justify-content: space-evenly;
     align-items: center;   
-    color: white; 
-    border-top: 2px solid white;
+    color: white;
+    border-bottom: none;  
     z-index: 100000;
   }
 
@@ -1019,7 +1018,6 @@ button:hover {
     align-items: center;
     flex-direction: column;
     margin: 20px 0 50px 0;
-    /* background: black; */
     padding: 75px;
   }
 
@@ -1209,7 +1207,7 @@ button:hover {
       width: 90%;
       position: relative;
       margin: 0 auto;
-      margin-top: 150px;
+      margin-top: 75px;
       padding: 30px;
       color: black;
     }
@@ -1227,9 +1225,7 @@ button:hover {
     
     
     .contact-form {
-      /* all: initial; */
       position: relative;
-
       width: 100vw;
       height: auto;
       margin: 0 auto;
@@ -1250,7 +1246,7 @@ button:hover {
       font-size: 18px;
       font-family: 'Josefin Slab', serif;
       font-weight: bold;
-      width: 300px;
+      width: 350px;
       margin-bottom: 5px;
       text-align: left;
       color: black;
@@ -1258,7 +1254,7 @@ button:hover {
     
     .contact-form input {
       font-family: 'Josefin Slab', serif;
-      width: 300px;
+      width: 350px;
       margin-bottom: 5px;
       color: black;
       font-size: 18px;
@@ -1277,7 +1273,7 @@ button:hover {
 
     
     .contact-form textarea {
-      width: 300px;
+      width: 350px;
       height: 150px;
       margin-bottom: 5px;
       font-size: 18px;

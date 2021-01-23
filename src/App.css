@@ -526,6 +526,7 @@ button:hover {
 
 .contact-form #button {
   width: 200px;
+  height: auto;
   color: white;
   font-size: 18px;
   font-family: 'Josefin Slab', serif;
@@ -617,7 +618,6 @@ button:hover {
     flex-direction: column;
     z-index: -1;
     position: absolute;
-    /* overflow: scroll; */
   }
 
   .aboutParagraph {
@@ -884,6 +884,7 @@ button:hover {
 
 .contact-form #button {
   width: 200px;
+  height: auto;
   color: white;
   font-size: 18px;
   font-family: 'Josefin Slab', serif;
@@ -1013,10 +1014,6 @@ button:hover {
     height: 100%;
     width: 100vw;
     font-family: 'Josefin Slab', serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     margin: 20px 0 50px 0;
     padding: 75px;
   }
@@ -1263,6 +1260,7 @@ button:hover {
     
     .contact-form #button {
       width: 150px;
+      height: auto;
       color: white;
       font-size: 18px;
       font-family: 'Josefin Slab', serif;

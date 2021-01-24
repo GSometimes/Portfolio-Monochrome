@@ -16,6 +16,7 @@ const Contact = () => {
               console.log(error.text);
           });
           e.target.reset()
+          alert("Thank your for connecting! I'll be in touch soon!")
       }
 
     return (
@@ -46,17 +47,7 @@ const Contact = () => {
                     <p>Resume</p>
                     <h1><a href="/currentResume.pdf" download>My Resume</a></h1>
                 </div>
-                {/* <form className="contact-form" onSubmit={sendEmail}>
-                    <h1>Let's Work Together!</h1>
-                    <input type="hidden" name="contact_number" />
-                    <label>Name</label>
-                    <input type="text" name="name" required/>
-                    <label>Email</label>
-                    <input type="email" name="email" required/>
-                    <label>Message</label>
-                    <textarea name="message" required/>
-                    <input id="button" type="submit" value="Send" />
-                </form> */}
+
 
             </div>
         </>

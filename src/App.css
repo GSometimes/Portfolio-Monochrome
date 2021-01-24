@@ -146,7 +146,7 @@ margin: 30px;
   width: 300px;
   height: auto;
   margin-top: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 0;
 }
 
 .aboutMe{
@@ -1067,6 +1067,7 @@ button:hover {
     height: 75vh;
     width: 95vw;
     padding: 20px;
+    margin-bottom: 75px;
   }
 
   .aboutParagraph img{

@@ -2,14 +2,15 @@ import './App.css';
 import { Switch, Route } from "react-router-dom";
 import React, { useState } from 'react'
 import { CursorProvider } from 'react-cursor-custom'
-// import styled from 'styled-components'
+
 
 
 import Landing from "./components/Landing"
 import About from "./components/About"
 import Work from "./components/Work"
 import Contact from "./components/Contact"
-// import NavBar from "./components/NavBar"
+
+
 
 function App() {
 

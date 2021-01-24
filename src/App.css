@@ -116,13 +116,14 @@ margin: 30px;
 
 .aboutParagraph {
   position: absolute;
-  top: 50%;
+  top: 45%;
   right: 25%;
   transform: translate(50%, -50%);
-  height: 60vh;
+  height: 50vh;
   width: 35vw;
   color: white;
   font-family: 'Josefin Slab', serif;
+  /* border: 2px solid red; */
 }
 .aboutParagraph p {
   font-size: 20px;
@@ -137,16 +138,15 @@ margin: 30px;
 
 
 .aboutParagraph a:hover {
-  color: #454955;
+  color: #e1e1e1;
 }
 
 .aboutParagraph img{
   position: relative;
-  bottom: 100px;
+  bottom: 110px;
   width: 300px;
-  height: auto;
+  height: 150px;
   margin-top: 100px;
-  margin-bottom: 0;
 }
 
 .aboutMe{

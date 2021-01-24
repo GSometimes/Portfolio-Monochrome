@@ -7,7 +7,6 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   scroll-behavior: smooth;
-  /* border: 2px solid red; */
 }
 
 ::-webkit-scrollbar {
@@ -17,6 +16,7 @@
 #selector {
   cursor: none;
 }
+
 /* Landing Component */
 
 .homeHeader {
@@ -159,10 +159,6 @@ margin: 30px;
 }
 
 .aboutTitle {
-  /* position: absolute;
-  top: 20px;
-  left: 50%;
-  transform: translate(-50%, -50%); */
   font-size: 48px;
   text-align: center;
   color: white;
@@ -350,9 +346,6 @@ a:hover{
   position: absolute;
   top: 10;
   left: 0;
-  /* top: 50%; */
-  /* left: 50%; */
-  /* transform: translate(-50%, -50%); */
   width: 100%;
   height: 100%;
   transition: 0.5s;
@@ -522,6 +515,7 @@ button:hover {
   margin-bottom: 10px;
   color: black;
   font-size: 18px;
+  padding: 5px;
 }
 
 .contact-form #button {
@@ -543,6 +537,7 @@ button:hover {
   width: 25vw;
   height: 10vh;
   margin-bottom: 10px;
+  padding: 5px;
 }
 
 /* End of Contact Container */
@@ -564,12 +559,12 @@ button:hover {
 
 
   .myName{
-    display: flex;
-    flex-direction: column;
-    height: 75vh;
-    width: 700px;
-    align-items: center;
-    justify-content: center;
+    /* display: flex;
+    flex-direction: column; */
+    /* height: 75vh;
+    width: 700px; */
+    /* align-items: center;
+    justify-content: center; */
     position: fixed;
     top: 40%;
     left: 50%;
@@ -585,33 +580,33 @@ button:hover {
     border-radius: 50%;
     height: 250px;
     width: 250px;
-    border: 4px solid black;
-    filter: grayscale(1);
-    transition: 0.5s;
+    /* border: 4px solid black; */
+    /* filter: grayscale(1);
+    transition: 0.5s; */
     margin: 30px;
     }
     
-    #myPic:hover {
+    /* #myPic:hover {
       filter: grayscale(0);
-    }
+    } */
     
-    #myElement {
+    /* #myElement {
       font-size: 24px;
       font-weight: bold;
       font-family: 'Josefin Slab', serif;
-    }
+    } */
     /* End of Landing Container */
 
     /* About Container */
 
     .aboutContainer {
     background-image: none;
-    background-attachment: fixed;
+    /* background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    width: 100vw;
+    width: 100vw; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -624,36 +619,36 @@ button:hover {
     all: initial;
     height: 50vh;
     width: 100vw;
-    font-family: 'Josefin Slab', serif;
+    /* font-family: 'Josefin Slab', serif; */
     margin-top: 450px;
   }
 
   .aboutParagraph p {
     font-size: 16px;
-    font-weight: bold;
-    line-height: 1.5;
+    /* font-weight: bold; */
+    /* line-height: 1.5; */
     width: 100%;
     color: black;
     margin: 10px;
   }
 
-  .aboutParagraph a {
+  /* .aboutParagraph a {
     text-decoration: none;
     color: #0C95F1;
     font-family: 'Josefin Slab', serif;
-  }
+  } */
 
 
-  .aboutParagraph a:hover {
+  /* .aboutParagraph a:hover {
     color: #454955;
-  }
+  } */
 
 
 
   .aboutMe{
     all: initial;
-    height: 80vh;
-    width: 100vw;
+    /* height: 80vh;
+    width: 100vw; */
     text-align: center;
   }
 
@@ -665,11 +660,11 @@ button:hover {
     width: 100%;
     transform: translate(-50%, -50%);
     font-size: 40px;
-    font-family: 'Josefin Slab', serif;
-    font-weight: bold;
-    text-align: center;
+    /* font-family: 'Josefin Slab', serif; */
+    /* font-weight: bold; */
+    /* text-align: center; */
     color: black;
-    letter-spacing: 10px;
+    /* letter-spacing: 10px; */
   }
 
   .imageGrid {
@@ -707,7 +702,7 @@ button:hover {
   transform: translate(-50%, -50%);
   height: 100px;
   width: 90vw;
-  mix-blend-mode: difference;
+  mix-blend-mode: normal;
 }
 
 .workTitle{
@@ -716,11 +711,12 @@ button:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 40px;
-  text-align: center;
+  /* text-align: center; */
   color: black;
-  letter-spacing: 10px;
+  /* letter-spacing: 10px; */
   height: 50px;
   width: 100%;
+  /* mix-blend-mode: normal; */
 }
 
 
@@ -730,14 +726,13 @@ button:hover {
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
-  position: absolute;
+  /* position: absolute;
   height: calc(100% - 200px);
-  width: calc(100% - 200px);
-  top: 50%;
+  width: calc(100% - 200px); */
+  /* top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
   grid-gap: 20px;
-
 }
 
 .container .box {
@@ -747,11 +742,11 @@ button:hover {
   overflow: hidden;
 }
 
-.container a {
+/* .container a {
   text-decoration: none;
   color: white;
   font-family: 'Josefin Slab', serif;
-}
+} */
 
 .container a:hover {
   color: #0C95F1;
@@ -761,7 +756,7 @@ button:hover {
   border-right: none;
 }
 
-.container .box .imgBox {
+/* .container .box .imgBox {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -772,22 +767,20 @@ button:hover {
   filter: grayscale(1);
   display: block;
   margin: 0 auto;
-}
+} */
 
 .img1, .img2, .img3, .img4 {
   border: 4px solid black;   
 }
 
-.description{
+/* .description{
   width: 100%;
   height: 125px;
   position: absolute;
   bottom: -100px;
   color:white;
   text-align: center;
-}
-
-
+} */
 
 /* End of Work Container Tablet */
 
@@ -795,17 +788,18 @@ button:hover {
 
 .contactContainer {
   background-image: none;
-  background-attachment: fixed;
+  /* background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
+  background-size: cover; */
+  /* height: 100vh;
+  width: 100vw; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   position: absolute;
+  background: black;
 }
 
 .contactTitle{
@@ -813,7 +807,7 @@ button:hover {
   top: 35px;
   font-size: 40px;
   text-align: center;
-  color: black;
+  color: white;
   letter-spacing: 10px;
 }
 
@@ -826,25 +820,28 @@ button:hover {
   margin-top: 50px;
   padding: 50px;
   text-align: center;
+  color: white;
 }
 
 .contact-details a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
-.contact-details a:hover {
+/* .contact-details a:hover {
   color: #0C95F1;
-}
+} */
 
 .contact-details h1 {
   margin: 0;
+  color: white;
 }
 
 
 .contact-form {
   all: initial;
   position: relative;
+  top: 75px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -854,7 +851,7 @@ button:hover {
   color: white;
   margin: 0 auto;
   padding-top: 20px;
-  background: black;
+  /* background: black; */
 }
 
 .contact-form h1 {
@@ -863,6 +860,7 @@ button:hover {
   font-weight: bold;
   font-size: 40px;
   color: white;
+  padding: 20px;
 }
 
 .contact-form label {
@@ -912,15 +910,15 @@ button:hover {
 
   .landingContainer {
     background-image: none;
-    background-attachment: fixed;
+    /* background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
+    background-size: cover; */
+    /* height: 100vh;
+    width: 100vw; */
   }
   
-  .myName{
+  /* .myName{
     display: flex;
     flex-direction: column;
     height: 75vh;
@@ -932,58 +930,55 @@ button:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px;
-  }
+  } */
 
 
   .nav {
     position: fixed;
     top: calc(100% - 50px);
-    background: black;
-    height: 50px;
-    width: 100vw;
+    /* background: black; */
+    /* height: 50px;
+    width: 100vw; */
     display: flex;
     justify-content: space-evenly;
-    align-items: center;   
+    /* align-items: center;    */
     color: white;
     border-bottom: none;  
     z-index: 100000;
   }
 
-  a {
+  /* a {
     text-decoration: none;
     color:black;
     font-weight: 700;
     padding: 10px;
-  }
+  } */
 
-  #hello{
+  #hello {
     margin: 0 auto;
-    color: black;
+    /* color: black; */
     font-size: 18px;
-    font-weight: bold;
+    /* font-weight: bold; */
     width: 50%;
-    font-family: 'Josefin Slab', serif;
-  
+    /* font-family: 'Josefin Slab', serif; */
   }
 
   #myPic{
-    border-radius: 50%;
     height: 175px;
     width: 175px;
-    border: 4px solid black;
+    /* border-radius: 50%; */
+    /* border: 4px solid black;
     filter: grayscale(1);
-    transition: 0.5s;
+    transition: 0.5s; */
     margin: 30px;
     }
     
-    #myPic:hover {
+    /* #myPic:hover {
       filter: grayscale(0);
-    }
+    } */
     
     #myElement {
       font-size: 18px;
-      font-weight: bold;
-      font-family: 'Josefin Slab', serif;
     }
 
     .homeHeader {
@@ -996,12 +991,12 @@ button:hover {
 
   .aboutContainer {
     background-image: none;
-    background-attachment: fixed;
+    /* background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
+    background-size: cover; */
+    /* height: 100vh;
+    width: 100vw; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1009,12 +1004,13 @@ button:hover {
   }
 
   .aboutParagraph {
-    all: initial;
+    /* all: initial; */
     height: 600px;
     width: 100vw;
-    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
     margin: 20px 0 50px 0;
-    padding: 75px;
+    /* font-family: 'Josefin Slab', serif; */
+    /* padding: 75px; */
   }
 
   .aboutParagraph p {
@@ -1052,12 +1048,12 @@ button:hover {
     font-size: 40px;
     font-family: 'Josefin Slab', serif;
     font-weight: bold;
-    text-align: center;
-    color: black;
-    letter-spacing: 10px;
+    /* text-align: center; */
+    /* color: black; */
+    /* letter-spacing: 10px; */
   }
 
-  .imageGrid {
+  /* .imageGrid {
     all: initial;
     display: grid;
     grid-gap: 10px;
@@ -1067,7 +1063,7 @@ button:hover {
     width: 95vw;
     padding: 20px;
     margin-bottom: 75px;
-  }
+  } */
 
   .aboutParagraph img{
     filter: invert(1);
@@ -1078,13 +1074,13 @@ button:hover {
     /* Mobile Work Container */
 
     .workContainer {
-      background-image: none;
-      background-attachment: fixed;
+      /* background-image: none; */
+      /* background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
-      background-size: cover;
-      height: 100vh;
-      width: 100vw;
+      background-size: cover; */
+      /* height: 100vh;
+      width: 100vw; */
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -1092,7 +1088,7 @@ button:hover {
     }
 
     .myWorks{
-      all:initial;
+      all: initial;
       position: relative;
       top: 20px;
       width: 90vw;
@@ -1109,7 +1105,6 @@ button:hover {
       text-align: center;
       color: black;
       letter-spacing: 10px;
-
     }
     
     
@@ -1120,6 +1115,7 @@ button:hover {
       flex-wrap: wrap;
       align-items: center;
       position: relative;
+      top: 175px;
       margin: 0 auto;
       height: calc(100% - 50px);
       width: 90%;
@@ -1134,45 +1130,45 @@ button:hover {
       bottom: 150px;
     }
     
-    .container a {
+    /* .container a {
       text-decoration: none;
       color: white;
       font-family: 'Josefin Slab', serif;
-    }
+    } */
     
-    .container a:hover {
+    /* .container a:hover {
       color: #0C95F1;
-    }
+    } */
     
     .container .box:last-child {
       border-right: none;
       margin-right: 0px
     }
     
-    .container .box .imgBox {
+    /* .container .box .imgBox {
       width: 100%;
       height: 100%;
       transition: 0.5s;
       filter: grayscale(1);
       display: block;
       margin: 0 auto;
-    }
+    } */
 
     .container .box:nth-of-type(4){
       margin-bottom: 200px;
     }
     
-    .img1, .img2, .img3, .img4 {
+    /* .img1, .img2, .img3, .img4 {
       border: 4px solid black;   
-    }
+    } */
 
     .description{
-      width: 100%;
       height: 175px;
-      position: absolute;
-      bottom: -100px;
-      color:white;
-      text-align: center;
+      /* width: 100%; */
+      /* position: absolute; */
+      /* bottom: -100px; */
+      /* color:white; */
+      /* text-align: center; */
     }
 
     /* End of Mobile Work Container */
@@ -1181,18 +1177,18 @@ button:hover {
 
     .contactContainer {
       background-image: none;
-      height: 100vh;
-      width: 100vw;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      /* height: 100vh;
+      width: 100vw; */
+      /* display: flex; */
+      /* flex-direction: column; */
+      /* justify-content: center;
+      align-items: center; */
       position: absolute;
     }
     
     .contactTitle{
-      margin: 0 auto;
-      font-size: 40px;
+      /* margin: 0 auto; */
+      /* font-size: 40px; */
       text-align: center;
       color: black;
       letter-spacing: 10px;
@@ -1211,7 +1207,6 @@ button:hover {
     }
     
     .contact-details a {
-      text-decoration: none;
       color: black;
     }
 
@@ -1234,8 +1229,8 @@ button:hover {
     }
     
     .contact-form h1 {
-      font-family: 'Josefin Slab', serif;
-      font-weight: bold;
+      /* font-family: 'Josefin Slab', serif; */
+      /* font-weight: bold; */
       font-size: 32px;
       color: black;
       padding: 15px;
@@ -1243,34 +1238,29 @@ button:hover {
     
     .contact-form label {
       font-size: 18px;
-      font-family: 'Josefin Slab', serif;
-      font-weight: bold;
+      /* font-family: 'Josefin Slab', serif; */
+      /* font-weight: bold; */
       height: 20px;
       width: 350px;
       margin-bottom: 5px;
-      text-align: left;
+      /* text-align: left; */
       color: black;
     }
     
     .contact-form input {
-      font-family: 'Josefin Slab', serif;
       height: 30px;
       width: 350px;
       margin-bottom: 5px;
-      color: black;
+      /* color: black; */
       font-size: 18px;
     }
     
     .contact-form #button {
       width: 150px;
       height: 30px;
-      color: white;
-      font-size: 18px;
-      font-family: 'Josefin Slab', serif;
-      font-weight: bold;
       padding: 5px;
       background-color: black;
-      margin-bottom: 25px;
+      margin-bottom: 50px;
     }
 
     
@@ -1279,8 +1269,6 @@ button:hover {
       height: 150px;
       margin-bottom: 5px;
       font-size: 18px;
-      font-family: 'Josefin Slab', serif;
-      color: black;
     }
 
     /* End of Mobile Contact Container */

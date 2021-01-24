@@ -1072,6 +1072,7 @@ button:hover {
       padding: 5px;
       background-color: #F3F3F3;
       margin-bottom: 50px;
+      color: black;
     }
     
     .contact-form textarea {

@@ -45,7 +45,8 @@ const Contact = () => {
                     <h1><a href="https://github.com/GSometimes" target="_blank" rel="noopener noreferrer">Github</a></h1>
                     <h1><a href="https://dev.to/gsometimes" target="_blank" rel="noopener noreferrer">Dev.to</a></h1>
                     <p>Resume</p>
-                    <h1><a href="https://docs.google.com/document/d/1RioG5yj0sAQqmIUMxBfdKbkDl60xhDyr-K-yMuKT8Yk/edit?usp=sharing" download>My Resume</a></h1>
+                    <h1><a href="https://pdfhost.io/v/y5GzqDCto_Gourav_Aulucks_Current_Resumepdf.pdf
+" download>My Resume</a></h1>
                 </div>
 
 

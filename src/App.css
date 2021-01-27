@@ -22,7 +22,7 @@
 .homeHeader {
   color: black;
   position: fixed;
-  bottom: 0;
+  bottom: 5%;
   left: 25%;
   transform: translate(-50%, -50%);
   letter-spacing: 10px;
@@ -105,7 +105,7 @@ margin: 30px;
 
 /* About Component */
 .aboutContainer {
-  background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610351379/Portfolio1/Typography_Portfolio_By_Sometimes_1_mbymvs.png");
+  background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1611715140/Portfolio1/Portfolio_1_o1fkrx.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -117,7 +117,7 @@ margin: 30px;
 
 .aboutParagraph {
   position: absolute;
-  top: 45%;
+  top: 50%;
   right: 25%;
   transform: translate(50%, -50%);
   height: 50vh;
@@ -125,8 +125,9 @@ margin: 30px;
   color: white;
   font-family: 'Josefin Slab', serif;
 }
+
 .aboutParagraph p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
 }
 
@@ -266,6 +267,7 @@ margin: 30px;
   color: white;
   font-weight: 700;
   padding: 3vw;
+  z-index: 10000;
 }
 
 a:hover{
@@ -279,7 +281,7 @@ a:hover{
 /* Work Container */
 
 .workContainer {
-  background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610351379/Portfolio1/Typography_Portfolio_By_Sometimes_1_mbymvs.png");
+  background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1611715140/Portfolio1/Portfolio_1_o1fkrx.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -433,7 +435,7 @@ button:hover {
 /* Contact Container */
 
 .contactContainer {
-  background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610351379/Portfolio1/Typography_Portfolio_By_Sometimes_1_mbymvs.png");
+  background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1611715140/Portfolio1/Portfolio_1_o1fkrx.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -543,6 +545,33 @@ button:hover {
 
 /* End of Contact Container */
 
+@media (max-height: 768px) and (max-width: 1366px) {
+  .homeHeader {
+    bottom: 0;
+  }
+
+  .aboutParagraph {
+    top: 45%;
+    right: 25%;
+    transform: translate(50%, -50%);
+    height: 50vh;
+    width: 40vw;
+  }
+
+  .aboutParagraph img{
+    position: relative;
+    bottom: 110px;
+    width: 275px;
+    height: 150px;
+    margin-top: 100px;
+  }
+
+  .aboutParagraph p {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
 @media only screen and (max-width: 768px){
 
   /* Landing Container */
@@ -554,7 +583,7 @@ button:hover {
   .homeHeader{
     font-size: x-large;
     position: fixed;
-    bottom: 0;
+    bottom: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -856,6 +885,7 @@ button:hover {
 
     .homeHeader {
       font-size: large;
+      bottom: 10%;
     }
 
     /* Mobile About Container */   

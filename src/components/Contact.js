@@ -29,20 +29,20 @@ const Contact = () => {
                 <Fade top>
                     <h1>Let's Work Together!</h1>
                 </Fade>
-                <Fade top>
+                <Fade left>
                     <input type="hidden" name="contact_number" />
                     <label>Name</label>
                 </Fade>
                 <Fade right>
                     <input type="text" name="name" required/>
                 </Fade>
-                <Fade top>
+                <Fade left>
                     <label>Email</label>
                 </Fade>
                 <Fade right>
                     <input type="email" name="email" required/>
                 </Fade>
-                <Fade top>
+                <Fade left>
                     <label>Message</label>
                 </Fade>
                 <Fade right>

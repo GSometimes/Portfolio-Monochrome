@@ -17,6 +17,7 @@
   cursor: none;
 }
 
+
 /* Landing Component */
 
 .homeHeader {
@@ -259,6 +260,7 @@ margin: 30px;
   justify-content: center;
   align-items: center;  
   border-bottom: 2px solid white;
+  z-index: 1000;
 }
 
 .nav a {
@@ -573,6 +575,11 @@ button:hover {
   .nav {
     z-index: 10000;
   }
+  
+  .nav a:hover {
+    cursor: pointer;
+  }
+
 }
 
 @media only screen and (max-width: 768px){

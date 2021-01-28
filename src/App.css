@@ -258,8 +258,7 @@ margin: 30px;
   display: flex;
   justify-content: center;
   align-items: center;  
-  border-bottom: 2px solid white; 
-
+  border-bottom: 2px solid white;
 }
 
 .nav a {
@@ -569,6 +568,10 @@ button:hover {
   .aboutParagraph p {
     font-size: 16px;
     line-height: 1.25;
+  }
+
+  .nav a {
+    z-index: 10000;
   }
 }
 

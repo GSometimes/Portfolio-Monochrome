@@ -265,7 +265,7 @@ margin: 30px;
   text-decoration: none;
   color: white;
   font-weight: 700;
-  padding: 3vw;
+  padding: 30px;
   z-index: 10000;
 }
 
@@ -570,7 +570,7 @@ button:hover {
     line-height: 1.25;
   }
 
-  .nav a {
+  .nav {
     z-index: 10000;
   }
 }

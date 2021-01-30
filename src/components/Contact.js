@@ -62,12 +62,16 @@ const Contact = () => {
                     <Fade left>
                     <p>Social</p>
                     <h1><a href="https://www.linkedin.com/in/gore-sometimes/" target="_blank" rel="noopener noreferrer">LinkedIn</a></h1>
+                    </Fade>
+                    <Fade right>
                     <h1><a href="https://github.com/GSometimes" target="_blank" rel="noopener noreferrer">Github</a></h1>
+                    </Fade>
+                    <Fade left>
                     <h1><a href="https://dev.to/gsometimes" target="_blank" rel="noopener noreferrer">Dev.to</a></h1>
                     </Fade>
                     <Fade bottom>
                     <p>Resume</p>
-                    <h1><a href="https://pdfhost.io/v/y5GzqDCto_Gourav_Aulucks_Current_Resumepdf.pdf" target="_blank" rel="noopener noreferrer" download>My Resume</a></h1>
+                    <h1><a href="https://drive.google.com/file/d/1AScY1QU_qNpnDqZvo-CaC1nWg0jXC-7a/view" target="_blank" rel="noopener noreferrer" download>My Resume</a></h1>
                     </Fade>
                 </div>
 

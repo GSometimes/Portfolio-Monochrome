@@ -267,7 +267,7 @@ margin: 30px;
   text-decoration: none;
   color: white;
   font-weight: 700;
-  padding: 30px;
+  padding: 50px;
   z-index: 10;
 }
 
@@ -294,11 +294,11 @@ a:hover{
 
 .myWorks{
   position: fixed;
-  top: 50%;
+  top: 100px;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 80vh;
-  width: 90vw;
+  width: 100vw;
+  height: 48px;
   mix-blend-mode: difference;
 }
 
@@ -447,7 +447,7 @@ button:hover {
 
 .contactTitle{
   position: fixed;
-  top: 110px;
+  top: 100px;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 48px;
@@ -875,6 +875,10 @@ button:hover {
     z-index: 10;
   }
 
+  .nav a {
+    padding: 10px;
+  }
+
 
   #hello {
     margin: 0 auto;
@@ -954,6 +958,11 @@ button:hover {
 
   .aboutParagraph img{
     filter: invert(1);
+    bottom: 110px;
+    width: 300px;
+    height: 150px;
+    margin-top: 100px;
+    left: 50px;
   }
 
     /* End Mobile About Container */

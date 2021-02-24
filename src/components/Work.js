@@ -31,14 +31,14 @@ const Work = () => {
                     <div className="box">
                         <div className="imgBox">
                             <Fade top>
-                            <img className="img2" src="https://res.cloudinary.com/dvug8hy5k/image/upload/v1607133056/Portfolio1/the_man_called_cayde_by_vulshokbersrker_dcxfgx8-fullview300_gly2rl.jpg" alt=""/>                    
+                            <img className="img2" src="https://res.cloudinary.com/dvug8hy5k/image/upload/v1612826960/Portfolio1/Ace_of_Spades_br0qos.png" alt=""/>                    
                             </Fade>
                         </div>
                         <div className="textBox">
                             <div className="description">
                                 <h2>The Man They Called Cayde</h2>
                                 <p>React, CSS, CMS</p>
-                                <button><a href="https://cayde6.netlify.app/" target="_blank" rel="noreferrer">Live Link</a></button> <button><a href="https://github.com/GSometimes/Cayde6" target="_blank" rel="noreferrer">Github Link</a></button>
+                                <button><a href="https://cayde-redesign.netlify.app/" target="_blank" rel="noreferrer">Live Link</a></button> <button><a href="https://github.com/GSometimes/Cayde-Redesign" target="_blank" rel="noreferrer">Github Link</a></button>
                             </div>
                         </div>
                     </div>

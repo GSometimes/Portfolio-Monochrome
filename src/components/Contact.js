@@ -71,7 +71,7 @@ const Contact = () => {
                     </Fade>
                     <Fade bottom>
                     <p>Resume</p>
-                    <h1><a href="https://drive.google.com/file/d/1tEEy7A5llwGJl2EmWlQQkNYMueXA7Uqo/view?usp=sharing" target="_blank" rel="noopener noreferrer" download>My Resume</a></h1>
+                    <h1><a href="https://drive.google.com/file/d/1JYGkilb_lznHQCzVrGUME49rNEkRAXjR/view?usp=sharing" target="_blank" rel="noopener noreferrer" download>My Resume</a></h1>
                     </Fade>
                 </div>
 

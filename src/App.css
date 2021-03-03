@@ -592,6 +592,35 @@ button:hover {
   button {
     font-size: 14px;
   }
+
+  .contact-details {
+    left: 45%;
+  }
+  
+  .contact-details a {
+    font-size: 24px;
+  }
+
+  .contact-form h1 {
+    font-size: 38px;
+  }
+  
+  .contact-form label {
+    width: 35vw;
+  }
+  
+  .contact-form input {
+    width: 35vw;
+  }
+  
+  .contact-form #button {
+    width: 175px;
+  }
+
+  .contact-form textarea {
+    width: 35vw;
+  }
+
 }
 
 @media (max-height: 768px) and (max-width: 1366px) {

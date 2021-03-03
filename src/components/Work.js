@@ -65,7 +65,8 @@ const Work = () => {
                             <div className="description">
                                 <h2>Little Black Book</h2>
                                 <p>React, Contentful</p>
-                                <button><a href="https://littleblackbook.netlify.app/" target="_blank" rel="noreferrer">Live Link</a></button> <button><a href="https://github.com/GSometimes/LBB-Capstone" target="_blank" rel="noreferrer">Github Link</a></button>                            </div>
+                                <button><a href="https://littleblackbook.netlify.app/" target="_blank" rel="noreferrer">Live Link</a></button> <button><a href="https://github.com/GSometimes/LBB-Capstone" target="_blank" rel="noreferrer">Github Link</a></button>                
+                            </div>
                         </div>
                     </div>               
 

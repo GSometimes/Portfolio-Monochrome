@@ -348,7 +348,7 @@ a:hover{
 
 .container .box .imgBox {
   position: absolute;
-  top: 10;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
@@ -548,16 +548,21 @@ button:hover {
 
 @media only screen and (max-width: 991px) {
   .landingContainer {
-    /* background-image: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1610768189/Portfolio1/Typography_Portfolio_By_Sometimes_tablet_j9ymbf.png'); */
-    background-image: none;
+    background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1611715140/Portfolio1/Portfolio_1_o1fkrx.png");
+    /* background-image: none; */
   }
   
   .myName {
     left: 50%;
   }
 
+  #hello {
+    color:#454955;
+}
   .homeHeader {
     left: 50%;
+    color: #454955;
+    border: 5px solid #454955;
   }
   
   .aboutParagraph {
@@ -567,9 +572,26 @@ button:hover {
   .aboutParagraph p {
     font-size: 16px;
   }
-
   
-
+  .container {
+    width: calc(100% - 100px);
+  }
+  
+  .description{
+    height: 150px;
+  }
+  
+  h2{
+    font-size: 18px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  button {
+    font-size: 14px;
+  }
 }
 
 @media (max-height: 768px) and (max-width: 1366px) {

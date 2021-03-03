@@ -546,6 +546,32 @@ button:hover {
 
 /* End of Contact Container */
 
+@media only screen and (max-width: 991px) {
+  .landingContainer {
+    /* background-image: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1610768189/Portfolio1/Typography_Portfolio_By_Sometimes_tablet_j9ymbf.png'); */
+    background-image: none;
+  }
+  
+  .myName {
+    left: 50%;
+  }
+
+  .homeHeader {
+    left: 50%;
+  }
+  
+  .aboutParagraph {
+    top: 45%;
+  }
+  
+  .aboutParagraph p {
+    font-size: 16px;
+  }
+
+  
+
+}
+
 @media (max-height: 768px) and (max-width: 1366px) {
   .homeHeader {
     bottom: 0;
@@ -581,6 +607,7 @@ button:hover {
   }
 
 }
+
 
 @media only screen and (max-width: 768px){
 

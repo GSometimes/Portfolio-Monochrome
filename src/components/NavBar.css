@@ -1,8 +1,41 @@
+.nav {
+    position: sticky;
+    top: 0;
+    background: black;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    border-bottom: 2px solid white;
+    z-index: 10;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 50px;
+    z-index: 10;
+  }
+  
+  a:hover{
+    color:#0C95F1;
+  }
 
+@media only screen and (max-width: 500px) {
+    
+  .nav {
+    position: fixed;
+    top: calc(100% - 50px);
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    border-bottom: none;
+    z-index: 10;
+  }
 
-
-
-@media only screen and (max-width: 991px) {}
-@media (max-height: 768px) and (max-width: 1366px) {}
-@media only screen and (max-width: 768px) {}
-@media only screen and (max-width: 500px) {}
+  .nav a {
+    padding: 10px;
+  }
+}

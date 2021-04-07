@@ -143,19 +143,6 @@
     background-image: none;
   }
 
-  .nav {
-    position: fixed;
-    top: calc(100% - 50px);
-    display: flex;
-    justify-content: space-evenly;
-    color: white;
-    border-bottom: none;
-    z-index: 10;
-  }
-
-  .nav a {
-    padding: 10px;
-  }
 
   #hello {
     margin: 0 auto;

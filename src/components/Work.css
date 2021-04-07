@@ -1,8 +1,294 @@
+.workContainer {
+  background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1611715140/Portfolio1/Portfolio_1_o1fkrx.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+}
 
+.myWorks {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 48px;
+  mix-blend-mode: difference;
+}
 
+.workTitle {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  text-align: center;
+  color: white;
+  letter-spacing: 10px;
+}
 
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: calc(100% - 200px);
+  width: calc(100% - 200px);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-@media only screen and (max-width: 991px) {}
-@media (max-height: 768px) and (max-width: 1366px) {}
-@media only screen and (max-width: 768px) {}
-@media only screen and (max-width: 500px) {}
+.container .box {
+  position: relative;
+  width: 25%;
+  height: 100%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.container a {
+  text-decoration: none;
+  color: white;
+  font-family: "Josefin Slab", serif;
+}
+
+.container a:hover {
+  color: #0c95f1;
+}
+
+.container .box .imgBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  filter: grayscale(1);
+  display: block;
+  margin: 0 auto;
+}
+
+.img1,
+.img2 {
+  border: 4px solid black;
+}
+
+.img3,
+.img4 {
+  border: 4px solid white;
+}
+
+.description {
+  width: 100%;
+  height: 125px;
+  position: absolute;
+  bottom: -100px;
+  color: white;
+  text-align: center;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: all 0.7s ease;
+  padding: 10px;
+}
+
+h2 {
+  font-family: "Josefin Slab", serif;
+}
+
+p {
+  font-family: "Josefin Slab", serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Josefin Slab", serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  color: #0c95f1;
+}
+
+.box:hover .description {
+  display: inline;
+  opacity: 1;
+  bottom: 0;
+  transition: all 0.7s ease;
+}
+
+.box:hover .imgBox {
+  opacity: 1;
+  filter: grayscale(0);
+}
+
+.container .box .imgBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media only screen and (max-width: 991px) {
+  .container {
+    width: calc(100% - 10px);
+  }
+
+  .description {
+    height: 150px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .workContainer {
+    background-image: none;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+  }
+
+  .myWorks {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 90vw;
+    mix-blend-mode: normal;
+  }
+
+  .workTitle {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: black;
+    height: 50px;
+    width: 100%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+
+    grid-gap: 20px;
+  }
+
+  .container .box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .container a:hover {
+    color: #0c95f1;
+  }
+
+  .container .box:last-child {
+    border-right: none;
+  }
+
+  .img1,
+  .img2,
+  .img3,
+  .img4 {
+    border: 4px solid black;
+  }
+}
+@media only screen and (max-width: 500px) {
+
+  .workContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .myWorks {
+    all: initial;
+    position: relative;
+    top: 20px;
+    width: 90vw;
+    height: 48px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .workTitle {
+    position: relative;
+    margin: 0 auto;
+    font-size: 48px;
+    text-align: center;
+    color: black;
+    letter-spacing: 10px;
+  }
+
+  .container {
+    all: initial;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    top: 175px;
+    margin: 0 auto;
+    height: calc(100% - 50px);
+    width: 90%;
+  }
+
+  .container .box {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    margin: 10px auto;
+    bottom: 150px;
+  }
+
+  .container .box:last-child {
+    border-right: none;
+    margin-right: 0px;
+  }
+
+  .container .box:nth-of-type(4) {
+    margin-bottom: 200px;
+  }
+
+  .description {
+    height: 175px;
+  }
+
+}

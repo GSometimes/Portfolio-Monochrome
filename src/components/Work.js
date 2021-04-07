@@ -1,6 +1,6 @@
 import React from 'react'
 import NavBar from './NavBar'
-
+import './Work.css'
 import Fade from 'react-reveal/Fade';
 
 const Work = () => {

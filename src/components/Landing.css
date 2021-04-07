@@ -1,0 +1,180 @@
+.homeHeader {
+  color: black;
+  position: fixed;
+  bottom: 5%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 10px;
+  border: 5px solid black;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: xx-large;
+}
+
+.homeHeader:hover {
+  color: #0c95f1;
+  border: 5px solid #0c95f1;
+}
+
+.landingContainer {
+  background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1610767149/Portfolio1/Typography_half_screen_td1lqu.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.myName {
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  width: 700px;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 45%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  z-index: 10000;
+}
+
+#hello {
+  margin: 0 auto;
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+  width: 95%;
+  font-family: "Josefin Slab", serif;
+}
+
+#name {
+  margin: 0 auto;
+  font-size: 60px;
+  color: black;
+  letter-spacing: 15px;
+  font-family: "Josefin Slab", serif;
+  font-weight: bold;
+}
+
+#myPic {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  border: 4px solid black;
+  filter: grayscale(1);
+  transition: 0.5s;
+  margin: 30px;
+}
+
+#myPic:hover {
+  filter: grayscale(0);
+}
+
+#myElement {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Josefin Slab", serif;
+}
+
+@media only screen and (max-width: 991px) {
+  .landingContainer {
+    background-image: url("https://res.cloudinary.com/dvug8hy5k/image/upload/v1611715140/Portfolio1/Portfolio_1_o1fkrx.png");
+  }
+
+  .myName {
+    left: 50%;
+  }
+
+  #hello {
+    color: #454955;
+  }
+  .homeHeader {
+    left: 50%;
+    color: #454955;
+    border: 5px solid #454955;
+  }
+}
+
+@media (max-height: 768px) and (max-width: 1366px) {
+  .homeHeader {
+    bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .landingContainer {
+    background-image: none;
+  }
+
+  .homeHeader {
+    font-size: x-large;
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .myName {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #hello {
+    font-size: 24px;
+    width: 100%;
+  }
+
+  #myPic {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin: 30px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .landingContainer {
+    background-image: none;
+  }
+
+  .nav {
+    position: fixed;
+    top: calc(100% - 50px);
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    border-bottom: none;
+    z-index: 10;
+  }
+
+  .nav a {
+    padding: 10px;
+  }
+
+  #hello {
+    margin: 0 auto;
+    font-size: 18px;
+    width: 50%;
+  }
+
+  #myPic {
+    height: 175px;
+    width: 175px;
+    margin: 30px;
+  }
+
+  #myElement {
+    font-size: 18px;
+  }
+
+  .homeHeader {
+    font-size: large;
+    bottom: 10%;
+  }
+}

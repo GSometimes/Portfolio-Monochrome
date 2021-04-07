@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from './NavBar'
 import emailjs from 'emailjs-com';
+import './Contact.css'
 
 import Fade from 'react-reveal/Fade';
 
@@ -58,7 +59,7 @@ const Contact = () => {
                     <h1><a href="mailto:gsometimes@outlook.com" target="_blank" rel="noopener noreferrer">gsometimes@outlook.com</a></h1>
                     </Fade>
                     <br/>
-                    <br/>
+                    {/* <br/> */}
                     <Fade left>
                     <p>Social</p>
                     <h1><a href="https://www.linkedin.com/in/gore-sometimes/" target="_blank" rel="noopener noreferrer">LinkedIn</a></h1>
@@ -66,12 +67,12 @@ const Contact = () => {
                     <Fade right>
                     <h1><a href="https://github.com/GSometimes" target="_blank" rel="noopener noreferrer">Github</a></h1>
                     </Fade>
-                    <Fade left>
+                    {/* <Fade left>
                     <h1><a href="https://dev.to/gsometimes" target="_blank" rel="noopener noreferrer">Dev.to</a></h1>
-                    </Fade>
+                    </Fade> */}
                     <Fade bottom>
                     <p>Resume</p>
-                    <h1><a href="https://drive.google.com/file/d/1JYGkilb_lznHQCzVrGUME49rNEkRAXjR/view?usp=sharing" target="_blank" rel="noopener noreferrer" download>My Resume</a></h1>
+                    <h1><a href="https://drive.google.com/file/d/1Xsh_Boto0htTf5xxgK-FJGb1bl9vrvcu/view?usp=sharing" target="_blank" rel="noopener noreferrer" download>My Resume</a></h1>
                     </Fade>
                 </div>
 

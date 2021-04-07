@@ -1,6 +1,5 @@
 import React from 'react'
 import NavBar from './NavBar'
-import { Link } from "react-router-dom";
 
 import Fade from 'react-reveal/Fade';
 
@@ -16,13 +15,14 @@ const About = () => {
 
                 <div className="aboutParagraph">
                     <Fade top>
-                    <p>Hi, my name is Gourav Auluck but many know me as Gore Sometimes. I am a Chef turned Developer who’s looking to take my creativity from plate to page and is excited to explore this new world of design and development. I take simple ideas and turn them into modern design.</p>
+                    <p>Hi, my name is Gourav Auluck. Many know me as Gore Sometimes. I am a Chef turned Developer who utilizes my creativity to take simple ideas and turn them into modern designs.</p>
                     </Fade>
                     <Fade right>
-                    <p>I am a father, foodie, and avid gamer always looking to make lasting memories. My son is my “why” and the reason I do what I do. When I am not online you’ll find me spending time with my son, enjoying a glass of wine with friends or grinding my way through the Destiny Universe.</p>
+                    <p>From plates to pages, I build a foundation utilizing simple ingredients that incorporates all of the senses resulting in a hand-crafted experience, making a lasting impression.</p>
                     </Fade>
                     <Fade bottom>
-                    <p>I am a web developer based in Southern California looking for freelance and long-term opportunities. If you are a business seeking a web developer or an employer looking to hire you can get in touch with me <Link to="/contact"> here</Link>.</p>
+                    <p>I am a creative frontend devleoper who is proficient in HTML/CSS, JavaScript, and specializes in React Development. I am experienced in working individually and with a team to create clean code, follow UI best practices, and produce modern, engaging websites.</p>
+                    <p>Motivated to learn, grow and excel in the Tech Industry, I am excited to partner with you and your team!</p>
                     </Fade>
 
                     <Fade bottom>

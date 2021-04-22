@@ -90,12 +90,12 @@
   }
 
   #hello {
-    color: #454955;
+    color: #424242;
   }
   .homeHeader {
     left: 50%;
-    color: #454955;
-    border: 5px solid #454955;
+    color: #424242;
+    border: 5px solid #424242;
   }
 }
 
@@ -128,8 +128,13 @@
   #hello {
     font-size: 24px;
     width: 100%;
+    color: black;
   }
 
+  .homeHeader {
+    color: black;
+    border: 5px solid black;
+  }
   #myPic {
     border-radius: 50%;
     height: 250px;
@@ -143,7 +148,6 @@
     background-image: none;
   }
 
-
   #hello {
     margin: 0 auto;
     font-size: 18px;
@@ -151,8 +155,8 @@
   }
 
   #myPic {
-    height: 175px;
-    width: 175px;
+    height: 200px;
+    width: 200px;
     margin: 30px;
   }
 

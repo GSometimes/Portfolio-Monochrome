@@ -27,7 +27,7 @@ import Fade from 'react-reveal/Fade';
 
           <Fade bottom>
           <div className="landingContainer">
-            <Link to="/about"><h1 className="homeHeader">ENTER</h1></Link>
+            <Link to="/work"><h1 className="homeHeader">ENTER</h1></Link>
           </div>
           </Fade>
         </>

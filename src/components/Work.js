@@ -14,7 +14,7 @@ const Work = () => {
 
 
                 <div className="container">
-                    <div className="box">
+                    {/* <div className="box">
                         <div className="imgBox">                              
                             <Fade left>
                                 <img className="img1" src="https://res.cloudinary.com/dvug8hy5k/image/upload/v1610919748/Portfolio1/2021.01.17-13.32_qdtzcv.png" alt=""/>
@@ -27,7 +27,7 @@ const Work = () => {
                                 <button><a href="https://goresometimes.netlify.app/" target="_blank" rel="noreferrer">Live Link</a></button> <button><a href="https://github.com/GSometimes/PortfolioxV3" target="_blank" rel="noreferrer">Github Link</a></button>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="box">
                         <div className="imgBox">
                             <Fade top>
@@ -69,7 +69,6 @@ const Work = () => {
                             </div>
                         </div>
                     </div>               
-
                 </div>
 
             </div>

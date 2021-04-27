@@ -149,6 +149,10 @@ button:hover {
     width: calc(100% - 10px);
   }
 
+  .container .box {
+    width: 33%;
+  }
+
   .description {
     height: 150px;
   }
@@ -207,7 +211,7 @@ button:hover {
 
   .container .box {
     position: relative;
-    width: 100%;
+    width: 80%;
     height: 100%;
     overflow: hidden;
   }
@@ -228,7 +232,6 @@ button:hover {
   }
 }
 @media only screen and (max-width: 500px) {
-
   .workContainer {
     display: flex;
     flex-direction: column;
@@ -290,5 +293,4 @@ button:hover {
   .description {
     height: 175px;
   }
-
 }

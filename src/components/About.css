@@ -141,6 +141,11 @@
     font-size: 16px;
   }
 
+  .aboutParagraph img {
+    width: 250px;
+    height: 125px;
+  }
+
   .imageGrid {
     width: 45vw;
   }
@@ -158,8 +163,8 @@
   .aboutParagraph img {
     position: relative;
     bottom: 110px;
-    width: 275px;
-    height: 150px;
+    width: 250px;
+    height: 125px;
     margin-top: 100px;
   }
 

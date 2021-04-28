@@ -72,7 +72,7 @@ const Contact = () => {
                     </Fade> */}
                     <Fade bottom>
                     <p>Resume</p>
-                    <h1><a href="https://drive.google.com/file/d/1Xsh_Boto0htTf5xxgK-FJGb1bl9vrvcu/view?usp=sharing" target="_blank" rel="noopener noreferrer" download>My Resume</a></h1>
+                    <h1><a href="https://drive.google.com/file/d/1lpkQymiBzulOt1XBk9wR2ESzeiUq84C8/view?usp=sharing" target="_blank" rel="noopener noreferrer" download>My Resume</a></h1>
                     </Fade>
                 </div>
 

@@ -60,6 +60,7 @@ const Contact = () => {
             <input id="button" type="submit" value="Send" />
           </Fade>
         </form>
+
         <div className="contact-details">
           <Fade top>
             <p>Email</p>

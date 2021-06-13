@@ -37,13 +37,13 @@ export default class Landing extends Component {
           </Fade>
         </div>
 
-        <div className="landingContainer">
-          <Fade bottom>
+        <Fade bottom>
+          <div className="landingContainer">
             <Link to="/work">
               <h1 className="homeHeader">ENTER</h1>
             </Link>
-          </Fade>
-        </div>
+          </div>
+        </Fade>
       </>
     );
   }

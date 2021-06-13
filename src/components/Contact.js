@@ -106,7 +106,7 @@ const Contact = () => {
             <p>Resume</p>
             <h1>
               <a
-                href="https://drive.google.com/file/d/1cwiBfEKGBU_pGx2w0GAREe2S2mBx4N2a/view?usp=sharing"
+                href="https://drive.google.com/file/d/1yFRGPTBRd9OjSSy022_HboUJg_HwM44J/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 download

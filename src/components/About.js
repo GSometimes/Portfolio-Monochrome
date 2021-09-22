@@ -15,19 +15,19 @@ const About = () => {
 
                 <div className="aboutParagraph">
                     <Fade top>
-                    <p>Hi, my name is Gourav Auluck. Many know me as Gore Sometimes. I am a Chef turned Developer who utilizes my creativity to take simple ideas and turn them into modern designs.</p>
+                    <p>Hi, my name is Gore Auluck. Many know me as Gore Sometimes. I am a Chef turned Developer who utilizes my creativity to take simple ideas and turn them into modern designs.</p>
                     </Fade>
                     <Fade right>
                     <p>From plates to pages, I build a foundation utilizing simple ingredients that incorporates all of the senses resulting in a hand-crafted experience, making a lasting impression.</p>
                     </Fade>
                     <Fade bottom>
-                    <p>I am a creative frontend devleoper who is proficient in HTML/CSS, JavaScript, and specializes in React Development. I am experienced in working individually and with a team to create clean code, follow UI best practices, and produce modern, engaging websites.</p>
+                    <p>I am a creative frontend developer who is proficient in HTML/CSS, JavaScript, React, and specializes in creating modern, engaging design. I am experienced in working individually and with a team to create clean code, follow UI best practices, and produce modern, engaging websites.</p>
                     <p>Motivated to learn, grow and excel in the Tech Industry, I am excited to partner with you and your team!</p>
                     </Fade>
 
-                    <Fade bottom>
+                    {/* <Fade bottom>
                     <img src="https://res.cloudinary.com/dvug8hy5k/image/upload/v1611277322/Portfolio1/Screenshot_2021-01-21_170120_omncrd.png" alt="GoreSometimes"/>
-                    </Fade>
+                    </Fade> */}
                 </div>
                 <div className="imageGrid">
                 <Fade left>

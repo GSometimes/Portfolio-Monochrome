@@ -14,38 +14,38 @@ const Work = () => {
 
 
                 <div className="container">
-                    {/* <div className="box">
+                    <div className="box">
                         <div className="imgBox">                              
                             <Fade left>
-                                <img className="img1" src="https://res.cloudinary.com/dvug8hy5k/image/upload/v1610919748/Portfolio1/2021.01.17-13.32_qdtzcv.png" alt=""/>
+                                <img className="img1" src="https://res.cloudinary.com/dvug8hy5k/image/upload/v1632284268/Portfolio1/Abode-Screenshot-min_wlstbt.jpg" alt=""/>
                             </Fade>
                         </div>
                         <div className="textBox">
                             <div className="description">
-                                <h2>Portfolio by Sometimes (Previous)</h2>
-                                <p>React, CSS</p>
-                                <button><a href="https://goresometimes.netlify.app/" target="_blank" rel="noreferrer">Live Link</a></button> <button><a href="https://github.com/GSometimes/PortfolioxV3" target="_blank" rel="noreferrer">Github Link</a></button>
+                                <h2>Abode By Sometimes</h2>
+                                <p>React, Styled Components</p>
+                                <button><a href="https://abode-by-sometimes.netlify.app/" target="_blank" rel="noreferrer">Live Link</a></button> <button><a href="https://github.com/GSometimes/react-real-estate" target="_blank" rel="noreferrer">Github Link</a></button>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                     <div className="box">
                         <div className="imgBox">
                             <Fade top>
-                            <img className="img2" src="https://res.cloudinary.com/dvug8hy5k/image/upload/v1612826960/Portfolio1/Ace_of_Spades_br0qos.png" alt=""/>                    
+                            <img className="img2" src="https://res.cloudinary.com/dvug8hy5k/image/upload/v1632284268/Portfolio1/Storefront-Screenshot-min_ci1ikq.jpg" alt=""/>                    
                             </Fade>
                         </div>
                         <div className="textBox">
                             <div className="description">
-                                <h2>The Man They Called Cayde</h2>
-                                <p>React, CSS, CMS</p>
-                                <button><a href="https://cayde-redesign.netlify.app/" target="_blank" rel="noreferrer">Live Link</a></button> <button><a href="https://github.com/GSometimes/Cayde-Redesign" target="_blank" rel="noreferrer">Github Link</a></button>
+                                <h2>Bath Bomb Storefront</h2>
+                                <p>React, Shopify API</p>
+                                <button><a href="https://react-shopify-storefront.netlify.app//" target="_blank" rel="noreferrer">Live Link</a></button> <button><a href="https://github.com/GSometimes/React-Storefront" target="_blank" rel="noreferrer">Github Link</a></button>
                             </div>
                         </div>
                     </div>
                     <div className="box">
                         <div className="imgBox">
                             <Fade bottom>
-                            <img className="img3" src="https://res.cloudinary.com/dvug8hy5k/image/upload/v1610919751/Portfolio1/2021.01.17-13.33_jrp0hj.png" alt=""/>
+                            <img className="img3" src="https://res.cloudinary.com/dvug8hy5k/image/upload/v1632284781/Portfolio1/Cineprime-min_brpomk.jpg" alt=""/>
                             </Fade>
                         </div>
                         <div className="textBox">

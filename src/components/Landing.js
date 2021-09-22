@@ -11,10 +11,11 @@ export default class Landing extends Component {
     init(myElement, {
       showCursor: false,
       strings: [
-        "Front End Developer,",
-        "React Developer,",
-        "Entrepreneur,",
-        "Designer,",
+        "Front End Developer.",
+        "Web Designer.",
+        "UI Designer.",
+        "Michelin Star Chef.",
+        "Dad."
       ],
     });
   }
@@ -26,13 +27,13 @@ export default class Landing extends Component {
           <Fade top>
             <img
               id="myPic"
-              src="https://res.cloudinary.com/dvug8hy5k/image/upload/v1607283143/Portfolio1/829ABC3F-387C-44D9-978F-4D8D702D4865300_uttnwf.jpg"
+              src="https://res.cloudinary.com/dvug8hy5k/image/upload/v1632284270/Portfolio1/Suit-Love-min_dvfqqw.jpg"
               alt=""
             />
             <p id="hello">
               Hello, my name is Gore Sometimes. I'm a SoCal based{" "}
-              <span id="myElement"></span> Chef, and Dad. <br />
-              <br />I take simple ideas and turn them into modern design.
+              <span id="myElement"></span>
+              <br /><br />I take simple ideas and turn them into modern design.
             </p>
           </Fade>
         </div>
